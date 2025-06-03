@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CD74HC4067")(type "KiCad")(uri "E:/Documents/Kicad_Projects/Smart_Insole_2025/Project_library/CD74HC4067M96/CD74HC4067M96.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-C3_SUPERMINI")(type "KiCad")(uri "E:/Documents/Kicad_Projects/Smart_Insole_2025/Project_library/ESP32-C3_SUPERMINI_SMD/ESP32-C3_SUPERMINI_SMD.kicad_sym")(options "")(descr ""))
+  (lib (name "GY-521")(type "KiCad")(uri "E:/Documents/Kicad_Projects/Smart_Insole_2025/Project_library/GY-521/GY-521.kicad_sym")(options "")(descr ""))
+)
