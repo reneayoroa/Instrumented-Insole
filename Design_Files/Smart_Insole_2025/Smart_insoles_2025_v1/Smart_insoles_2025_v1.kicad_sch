@@ -578,6 +578,166 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x20"
 			(pin_names
 				(offset 1.016) hide)
@@ -3465,10 +3625,34 @@
 		(uuid "2c6ad2b0-00d1-4d2f-ae97-f1642bf739d7")
 	)
 	(junction
+		(at 205.74 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515a8507-9ed0-49cb-b4cb-a54b06f13292")
+	)
+	(junction
 		(at 123.19 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51c4bfbd-1820-4b10-97c6-4ea5fa2f4e99")
+	)
+	(junction
+		(at 205.74 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a150cd-9715-41dc-8311-64d10c1ebcab")
+	)
+	(junction
+		(at 217.17 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75cc4587-a7b4-4ecb-86f2-b950b9f2bc41")
+	)
+	(junction
+		(at 217.17 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98ca66c2-0ab2-4810-a7a0-bf9cc7163a3d")
 	)
 	(junction
 		(at 123.19 60.96)
@@ -3499,6 +3683,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe19ca82-9c77-4956-b9fe-d92bfe9791d3")
+	)
+	(no_connect
+		(at 73.66 40.64)
+		(uuid "0c132dbe-8faf-4be0-b660-cc27e2ab55d1")
 	)
 	(no_connect
 		(at 228.6 95.25)
@@ -3598,6 +3786,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 43.18) (xy 228.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046086ec-e582-4e64-9b9e-a6d6df1ed19a")
+	)
+	(wire
+		(pts
 			(xy 205.74 34.29) (xy 205.74 35.56)
 		)
 		(stroke
@@ -3625,6 +3823,16 @@
 			(type default)
 		)
 		(uuid "0f419a55-7228-45bb-a453-bc2ea7c79b23")
+	)
+	(wire
+		(pts
+			(xy 205.74 35.56) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1697a263-dcd3-461b-b0dc-06bb06865aee")
 	)
 	(wire
 		(pts
@@ -4058,6 +4266,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 43.18) (xy 217.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d9e41b-d5e1-4cef-8f69-fc1eb765e81b")
+	)
+	(wire
+		(pts
 			(xy 73.66 48.26) (xy 77.47 48.26)
 		)
 		(stroke
@@ -4075,6 +4293,16 @@
 			(type default)
 		)
 		(uuid "ca6381b8-4781-40f8-a99f-32353cfa1400")
+	)
+	(wire
+		(pts
+			(xy 217.17 35.56) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacf33cf-4870-43e5-93e7-efed96156617")
 	)
 	(wire
 		(pts
@@ -4176,10 +4404,9 @@
 		)
 		(uuid "fcc593b4-ca03-4f88-babc-3ec7aed54ae5")
 	)
-	(text_box "ESP32-C3 Microcontroller"
-		(exclude_from_sim no)
-		(at 24.13 22.86 0)
-		(size 72.39 60.96)
+	(rectangle
+		(start 200.66 22.86)
+		(end 279.4 60.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -4187,18 +4414,24 @@
 		(fill
 			(type none)
 		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
+		(uuid 7f11e251-8b04-4d05-86d4-ea21269990c6)
+	)
+	(rectangle
+		(start 25.4 22.86)
+		(end 96.52 83.82)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "033e5194-7d03-4c34-b2fa-add924dc6b16")
+		(fill
+			(type none)
+		)
+		(uuid 9c362d45-bd08-4383-85db-17e38102eec1)
 	)
 	(text_box "MPU6050 - Accelerometer/Gyroscope\n"
 		(exclude_from_sim no)
-		(at 196.85 116.84 0)
-		(size 83.82 45.72)
+		(at 200.66 116.84 0)
+		(size 80.01 45.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -4213,44 +4446,6 @@
 			(justify left top)
 		)
 		(uuid "07a808d9-95f3-4410-bade-b0fe3397fac9")
-	)
-	(text_box "Decoupling Capacitors"
-		(exclude_from_sim no)
-		(at 199.39 22.86 0)
-		(size 80.01 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "493a1b0b-3a1d-4dc5-a655-68c461bedf2c")
-	)
-	(text_box "Test Points\n"
-		(exclude_from_sim no)
-		(at 100.33 142.24 0)
-		(size 57.15 24.13)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "649424f0-ab60-49fe-bc80-8216733f62f9")
 	)
 	(text_box "Voltage divider\n\nVCC_\n	|\n	R\n	|\n	|--- Vout\n	|\n   FSR\n	|\n   GND"
 		(exclude_from_sim no)
@@ -4327,6 +4522,26 @@
 			(justify left top)
 		)
 		(uuid "882b6f03-5bd3-41a2-a883-dfd56e99cbbb")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 28.194 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad109dde-66e1-467b-a787-24f5e51add50")
+	)
+	(text "Decoupling Capacitors\n"
+		(exclude_from_sim no)
+		(at 211.074 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f38130ff-db0a-4d15-911d-07dfecca1e5d")
 	)
 	(label "SDA"
 		(at 34.29 63.5 180)
@@ -4473,6 +4688,7 @@
 	)
 	(label "SCL"
 		(at 213.36 138.43 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4648,6 +4864,7 @@
 	)
 	(label "SDA"
 		(at 213.36 140.97 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4669,6 +4886,7 @@
 	)
 	(label "INT"
 		(at 212.09 151.13 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5094,7 +5312,7 @@
 			(uuid "76acdf31-8693-43f5-888f-ca3d5d7bf876")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "U2")
 					(unit 1)
@@ -5391,7 +5609,7 @@
 			(uuid "14df70fb-01f9-4ee8-84f9-7ccddaae08cb")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "U1")
 					(unit 1)
@@ -5659,7 +5877,7 @@
 			(uuid "f542187d-15fc-4a3f-9b3a-239e8c39aeaf")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "R1")
 					(unit 1)
@@ -5725,7 +5943,7 @@
 			(uuid "b4c03e40-7920-4b02-bb24-dbe194dfcaab")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "#PWR010")
 					(unit 1)
@@ -5860,6 +6078,72 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 140.97 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65f80c98-4bc8-43ab-8f26-72ca0fe68d4a")
+		(property "Reference" "#PWR023"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 140.97 120.9731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2adacf94-cd5e-4ef0-bf4b-6912ffba547a")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6091,9 +6375,79 @@
 			(uuid "ab72c725-c0f7-4f1b-9f9c-9b155e6f3142")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "ACC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a394098-7528-4a93-9f20-1de2e2f59a8e")
+		(property "Reference" "C2"
+			(at 220.091 38.1578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 220.091 40.5821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 218.1352 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f91d94e-891d-43f3-8c22-31a1884be461")
+		)
+		(pin "2"
+			(uuid "90ef6faa-7ecb-4c79-9a7c-d5bc9d88780f")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6248,7 +6602,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "10k"
 			(at 128.27 72.898 90)
 			(effects
 				(font
@@ -6308,7 +6662,7 @@
 			(uuid "629179e9-34ff-4deb-8436-bef068efb80f")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "RN1")
 					(unit 1)
@@ -6374,7 +6728,7 @@
 			(uuid "8c1d0506-80d8-4c7c-8e0c-c73c54282ed7")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "#PWR02")
 					(unit 1)
@@ -6440,7 +6794,7 @@
 			(uuid "02fecd76-2575-44b6-a9d3-a6ec185942bd")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "#PWR09")
 					(unit 1)
@@ -6581,6 +6935,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 146.05 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9ff1aad-804c-4e4f-ba52-70d499a6c6b4")
+		(property "Reference" "J2"
+			(at 146.7612 114.3578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 146.7612 116.7821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "363ee8c5-eff1-4e42-af30-f71c3edb5cc6")
+		)
+		(pin "2"
+			(uuid "fbbf066a-fdc0-47b5-9e14-51902276100b")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 135.89 270)
 		(unit 1)
@@ -6709,7 +7133,7 @@
 			(uuid "b116fea2-80b4-4f18-bbb0-61f034c7d865")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "C1")
 					(unit 1)
@@ -6777,7 +7201,7 @@
 			(uuid "6eff01ba-db6c-411c-8ac6-b7878f8e2629")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "BT1")
 					(unit 1)
@@ -6847,6 +7271,76 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def2bf5e-e3d1-4680-9d9c-4853e0f4deb2")
+		(property "Reference" "C3"
+			(at 231.521 38.1578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 231.521 40.5821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 229.5652 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01954ec1-357f-495a-ab53-99641a2f254f")
+		)
+		(pin "2"
+			(uuid "b9e765d6-b372-4a10-b775-c26d6577c9fc")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7032,7 +7526,7 @@
 			(uuid "f41b2a76-5a61-485a-8305-6bdaa60b8ba4")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "J1")
 					(unit 1)
@@ -7098,9 +7592,75 @@
 			(uuid "7343d1e2-3dab-4945-8946-23c18b8219c1")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 140.97 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f74eca6b-ae38-48a8-8dac-0368ed983faa")
+		(property "Reference" "#PWR022"
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 140.97 110.1669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba277c03-5412-4b3e-b577-55c6d4ad4e2f")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7124,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "10k"
 			(at 128.27 45.2698 90)
 			(effects
 				(font
