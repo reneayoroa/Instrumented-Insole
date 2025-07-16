@@ -4,4 +4,5 @@
   (lib (name "ESP32-C3_SUPERMINI")(type "KiCad")(uri "E:/Documents/Kicad_Projects/Smart_Insole_2025/Project_library/ESP32-C3_SUPERMINI_SMD")(options "")(descr ""))
   (lib (name "BAT_LIFEPO4")(type "KiCad")(uri "E:/Documents/Battery_holders_lifepo4.pretty")(options "")(descr ""))
   (lib (name "GY-521")(type "KiCad")(uri "E:/Documents/Kicad_Projects/Smart_Insole_2025/Project_library/GY-521")(options "")(descr ""))
+  (lib (name "ADM8829")(type "KiCad")(uri "C:/Users/renea/Documents/InvestigacionFPUNE/2025/Projects/Instrumented-Insole/Design_Files/Smart_Insole_2025/Project_library/ADM8829")(options "")(descr ""))
 )

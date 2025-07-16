@@ -566,7 +566,7 @@
 		(uuid "46cec129-0ce8-4919-8316-94e91c39b791")
 		(at 107.569 38.422 -90)
 		(property "Reference" "U2"
-			(at -1.8206 -0.5334 0)
+			(at -1.8206 -0.5334 180)
 			(layer "F.SilkS")
 			(uuid "e1cafe7d-c2d7-4328-97a1-c93ec6261caf")
 			(effects
@@ -577,7 +577,7 @@
 			)
 		)
 		(property "Value" "CD74HC4067M96"
-			(at 0.508 -0.254 0)
+			(at 0.508 -0.254 180)
 			(layer "F.Fab")
 			(uuid "c4125ba8-bd74-42f7-a595-71b1a4113c99")
 			(effects
@@ -1116,6 +1116,17 @@
 			)
 		)
 		(model "E:/Documents/InvestigacionFPUNE/2025/Instrumented-Insole/Design_Files/Smart_Insole_2025/Project_library/CD74HC4067M96--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "C:/Users/renea/Documents/InvestigacionFPUNE/2025/Projects/Instrumented-Insole/Design_Files/Smart_Insole_2025/Project_library/CD74HC4067M96--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2505,7 +2516,7 @@
 		(uuid "b44b1c22-dd58-433b-b365-c52407abc3ea")
 		(at 85.201 32.252)
 		(property "Reference" "U1"
-			(at -5.715 -13.6525 360)
+			(at -5.715 -13.6525 0)
 			(layer "F.SilkS")
 			(uuid "0e860dbd-dc05-450d-ad66-f7954b3f4b18")
 			(effects
@@ -2527,7 +2538,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-C3_SUPERMINI:MODULE_ESP32-C3_SUPERMINI"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f7ad2bc-d8b9-4c0a-b7b1-7701215a4823")
@@ -2539,7 +2550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08912af9-2894-4ca9-b2a8-0f4dd807b620")
@@ -2551,7 +2562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ab1606e-d823-433c-ba9c-fe3edaf3a7fc")
@@ -3124,6 +3135,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "C:/Users/renea/Documents/InvestigacionFPUNE/2025/Projects/Instrumented-Insole/Design_Files/Smart_Insole_2025/Project_library/ESP32-C3 SuperMini--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "GY-521:GY-521_SMD"
 		(layer "F.Cu")
@@ -3600,6 +3622,17 @@
 		(model "E:/Documents/InvestigacionFPUNE/2025/Instrumented-Insole/Design_Files/Smart_Insole_2025/Project_library/GY-521--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 8.255 10.795 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "C:/Users/renea/Documents/InvestigacionFPUNE/2025/Projects/Instrumented-Insole/Design_Files/Smart_Insole_2025/Project_library/GY-521--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 8 11 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4421,7 +4454,7 @@
 			(xy 142.878739 48.129261) (xy 73.152 48.006)
 		)
 		(height -7.626871)
-		(gr_text "69.7268 mm"
+		(gr_text "69,7268 mm"
 			(at 108.003919 54.544491 -0.1012866085)
 			(layer "Dwgs.User")
 			(uuid "6ea7af66-9224-4161-9ea8-316837b33cc8")
@@ -4454,7 +4487,7 @@
 			(xy 76.2 19.05) (xy 76.2 49.149)
 		)
 		(height 5.842)
-		(gr_text "30.0990 mm"
+		(gr_text "30,0990 mm"
 			(at 69.208 34.0995 90)
 			(layer "Dwgs.User")
 			(uuid "96b6e704-b9e4-4b70-bf9e-fca7c150373a")

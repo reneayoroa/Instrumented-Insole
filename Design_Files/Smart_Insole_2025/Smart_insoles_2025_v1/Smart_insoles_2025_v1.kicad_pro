@@ -594,6 +594,14 @@
     [
       "f1f3d712-154d-4111-a7c4-f47541abccf8",
       "Raíz"
+    ],
+    [
+      "720d2e8f-49b8-46ab-8d82-07d24ffc5c73",
+      "Battery Circuit Options"
+    ],
+    [
+      "becab1a4-f5a1-44a9-8c28-9b741b2d0406",
+      "FSR_AnalogFE"
     ]
   ],
   "text_variables": {}
