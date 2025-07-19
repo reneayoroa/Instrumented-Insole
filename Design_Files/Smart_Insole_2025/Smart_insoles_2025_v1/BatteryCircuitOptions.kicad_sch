@@ -165,178 +165,6 @@
 				)
 			)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers hide)
@@ -566,26 +394,6 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 38.1 39.37) (xy 38.1 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24158770-936b-42b9-9387-cc2fceb82a57")
-	)
-	(wire
-		(pts
-			(xy 38.1 48.26) (xy 38.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a46ac6-fdb2-48fd-84f5-31e6e4c70443")
-	)
 	(rectangle
 		(start 24.13 19.05)
 		(end 77.47 63.5)
@@ -598,85 +406,19 @@
 		)
 		(uuid 729e0ef7-17c5-4562-b0f9-7ece9a50f702)
 	)
-	(text "LIFEPO4 3.2v \n-------------\nBe careful, other batteries will damage the MCU\n\n"
+	(text "Assumes constant 3v3 input.\nBattery must have:\n	Usb charging module\n	Protection circuitry\n	Regulated output to 3v3\n\n"
 		(exclude_from_sim no)
-		(at 51.562 24.13 0)
+		(at 39.624 27.178 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "6dc62149-7993-4b19-bdd3-1d4d6855753e")
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 38.1 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "198f3d32-d79c-4674-848c-713e99090eab")
-		(property "Reference" "#PWR010"
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 38.1 54.9331 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4138fc7-dd50-494c-85d7-1266361db88d")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ce527630-bb62-4795-9849-3429d3346ac3")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 60.96 45.72 180)
+		(at 45.72 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -684,7 +426,7 @@
 		(dnp no)
 		(uuid "4c186150-08a9-4793-ba1b-3855a032bb0e")
 		(property "Reference" "J2"
-			(at 61.6712 43.2378 0)
+			(at 46.4312 43.2378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,7 +435,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 53.34 35.306 0)
+			(at 38.1 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +444,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 60.96 45.72 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 45.72 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,7 +462,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 60.96 45.72 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +487,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 55.88 45.72 180)
+		(at 40.64 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -754,7 +496,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f8dbd16-af63-44da-9f1d-a27b12f96e0e")
 		(property "Reference" "#PWR023"
-			(at 55.88 41.91 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +505,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 55.88 49.8531 0)
+			(at 40.64 49.8531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 45.72 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,7 +522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 45.72 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,7 +531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 55.88 45.72 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,142 +552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 38.1 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c33e691-82f7-4a58-833c-0a721337df9c")
-		(property "Reference" "BT1"
-			(at 41.021 42.6663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 41.021 45.0906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BAT_LIFEPO4:Lifepo4_3.2v_300mAh_holder"
-			(at 46.736 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 44.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 38.1 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f98fd7c-ec95-4e5d-9193-685430873f86")
-		)
-		(pin "1"
-			(uuid "6d58e9c0-245a-455f-a5d2-3e1f0a08c8de")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 38.1 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99079820-7023-434c-a46d-7b71892883c7")
-		(property "Reference" "#PWR09"
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 38.1 35.2369 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78e92047-0c35-44f6-8710-afde8756b18c")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 55.88 43.18 0)
+		(at 40.64 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -954,7 +562,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd6212e5-19e4-4b6e-a248-b417498bf5a5")
 		(property "Reference" "#PWR022"
-			(at 55.88 46.99 0)
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +571,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 55.88 39.0469 0)
+			(at 40.64 39.0469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 43.18 0)
+			(at 40.64 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 43.18 0)
+			(at 40.64 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 55.88 43.18 0)
+			(at 40.64 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
