@@ -5,6 +5,440 @@
 	(uuid "9b5a4926-686d-4cee-b460-cd118efa56d9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "3x3TrimPot:TC33X-2-302E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.0511 3.8139 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TC33X-2-302E"
+				(at 2.5421 -5.0842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1608 Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TC33X-2-302E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TC33X-2-302E_0_0"
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.016) (xy -4.572 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 -2.286) (xy 1.143 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.016) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.921) (xy -0.127 -1.651)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -1.651) (xy 1.143 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 -2.286) (xy -0.127 -2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.016) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.016) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.572 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ChargePumpInverter:ADM8829"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1717,52 +2151,118 @@
 		)
 	)
 	(junction
+		(at 46.99 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "079d0d56-d431-475e-8ad3-ff077d9b5bec")
+	)
+	(junction
+		(at 46.99 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09979e36-deac-44da-b885-39429fb29c5d")
+	)
+	(junction
+		(at 67.31 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d67ab59-01df-45e2-9689-946a515bd17a")
+	)
+	(junction
+		(at 67.31 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "141da9eb-16bc-4b87-a996-3f01856a022a")
+	)
+	(junction
+		(at 88.9 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267d8cbc-8577-4c5b-a2da-5bc88810ad11")
+	)
+	(junction
+		(at 110.49 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f60f395-0438-4043-b316-ea4a2a3d5d92")
+	)
+	(junction
+		(at 90.17 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fafc078-27e3-44b3-aec9-011315320494")
+	)
+	(junction
 		(at 83.82 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08b6ac85-749f-44b3-b197-a1c3ecad7058")
+		(uuid "38ae9ff8-2bd5-47a1-a712-d08558449535")
 	)
 	(junction
-		(at 46.99 74.93)
+		(at 114.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "276df84b-68e4-44a2-b247-861157a09dda")
+		(uuid "38e2ae0d-b257-42e0-8b4d-86f588593500")
 	)
 	(junction
-		(at 82.55 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38b46b6b-9aac-4e41-b016-b8cf786db586")
-	)
-	(junction
-		(at 143.51 93.98)
+		(at 171.45 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ccfad78-c4d1-4287-b6d8-f85c0a0b896d")
 	)
 	(junction
-		(at 46.99 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "413cd22a-33b3-4560-9121-7e999ba67b20")
-	)
-	(junction
-		(at 46.99 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45e7ec1f-67a2-46cc-8c66-40af0c0909ee")
-	)
-	(junction
-		(at 157.48 93.98)
+		(at 185.42 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dad87b4-066a-465f-9cf9-e28e444dea43")
 	)
 	(junction
-		(at 48.26 49.53)
+		(at 46.99 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83b8a5ec-424f-417f-b737-334d2211f874")
+		(uuid "5dedee83-dcce-4c01-a4df-10a7b7cbdec5")
+	)
+	(junction
+		(at 86.36 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ac05eb8-c713-4393-9125-721f8abec9b3")
+	)
+	(junction
+		(at 46.99 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8358efd7-4fbd-4758-9a53-69d43f4aaa70")
+	)
+	(junction
+		(at 107.95 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e0479d6-a714-4312-8554-8345b7ee52d0")
+	)
+	(junction
+		(at 46.99 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b287a769-45b7-47b5-a5f0-9ff7100c2abd")
+	)
+	(junction
+		(at 113.03 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36e3ee8-f61d-4537-ab21-ffc0b3184d26")
+	)
+	(junction
+		(at 46.99 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4ff4d03-83d6-439a-8ae9-0fc1dd557baa")
+	)
+	(junction
+		(at 46.99 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dceac0fe-7912-421b-a5e9-0b156ce1e8ba")
 	)
 	(junction
 		(at 88.9 74.93)
@@ -1771,10 +2271,22 @@
 		(uuid "ddc579ea-8a0b-4498-9dde-81432f56779e")
 	)
 	(junction
-		(at 88.9 96.52)
+		(at 93.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb4b9196-026d-4280-b931-752dee2df54e")
+		(uuid "e3e874d5-3c7b-4989-9a8f-26edee85821e")
+	)
+	(junction
+		(at 88.9 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75556c2-a08d-47b7-af67-4d441d8d6442")
+	)
+	(junction
+		(at 67.31 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9be070f-b1cc-4127-9b79-2204f5b3462d")
 	)
 	(junction
 		(at 264.16 27.94)
@@ -1788,12 +2300,18 @@
 		(color 0 0 0 0)
 		(uuid "f4263fd6-f113-4d8b-a899-eaf045544be2")
 	)
+	(junction
+		(at 82.55 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbbcf286-5369-44be-96db-d61750ad5c27")
+	)
 	(no_connect
 		(at 41.91 161.29)
 		(uuid "8250b33a-bb84-48df-a7b1-5e73ae1bbc4e")
 	)
 	(no_connect
-		(at 186.69 97.79)
+		(at 214.63 88.9)
 		(uuid "c2f0eff9-14ea-4f40-8dbf-fe2cc520561a")
 	)
 	(no_connect
@@ -1806,23 +2324,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 157.48 93.98)
+			(xy 196.85 85.09) (xy 185.42 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04df4525-909c-49bf-ab8d-a505fd3a7202")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 99.06 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050f43c5-dc27-4706-9111-56779cfce435")
 	)
 	(wire
 		(pts
@@ -1836,13 +2344,43 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 74.93) (xy 46.99 78.74)
+			(xy 46.99 67.31) (xy 46.99 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b32e960-9d50-465b-8781-9bc5071e063b")
+	)
+	(wire
+		(pts
+			(xy 53.34 59.69) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fadc54f-1b1b-47ae-abce-7370e48558eb")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 49.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d93636-0ab9-4077-906a-a77ac7feca3e")
+	)
+	(wire
+		(pts
+			(xy 60.96 59.69) (xy 67.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124c765e-6eb8-4385-ba0b-fe8b040ed42c")
 	)
 	(wire
 		(pts
@@ -1856,6 +2394,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 29.21) (xy 86.36 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146c0c07-e573-49d8-b982-318642e21725")
+	)
+	(wire
+		(pts
 			(xy 39.37 90.17) (xy 39.37 91.44)
 		)
 		(stroke
@@ -1863,16 +2411,6 @@
 			(type default)
 		)
 		(uuid "15445d97-a27d-4f52-b6e3-b9de4900f591")
-	)
-	(wire
-		(pts
-			(xy 95.25 29.21) (xy 105.41 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1799ef87-cd18-4047-af55-3d5e0713798c")
 	)
 	(wire
 		(pts
@@ -1896,27 +2434,47 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 96.52) (xy 63.5 96.52)
+			(xy 53.34 107.95) (xy 49.53 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e010c84-96f2-4f8e-8ea0-b2015bd733e1")
+		(uuid "1bb70be4-c2c1-4074-9b6f-a34e9ffe6d1d")
 	)
 	(wire
 		(pts
-			(xy 82.55 22.86) (xy 82.55 29.21)
+			(xy 104.14 67.31) (xy 114.3 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f8a9eca-eb6b-4065-b67e-21fd57f1ba75")
+		(uuid "1cd9276d-44d9-4789-8c13-7049c713c515")
 	)
 	(wire
 		(pts
-			(xy 166.37 114.3) (xy 173.99 114.3)
+			(xy 49.53 107.95) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdc4c6c-4975-4595-9185-abb76239d165")
+	)
+	(wire
+		(pts
+			(xy 57.15 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d56c97f-f4f1-4fb3-a062-ad69bb209a76")
+	)
+	(wire
+		(pts
+			(xy 194.31 105.41) (xy 201.93 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1936,16 +2494,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 44.45) (xy 83.82 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27bb164e-9641-4286-926c-d9b876acd558")
-	)
-	(wire
-		(pts
 			(xy 72.39 151.13) (xy 72.39 161.29)
 		)
 		(stroke
@@ -1956,27 +2504,67 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 102.87 74.93)
+			(xy 86.36 36.83) (xy 86.36 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e5da989-bf54-4512-9bdb-9ff594c3261b")
+		(uuid "2cb99229-4428-47a6-91a2-eb3f14467b18")
 	)
 	(wire
 		(pts
-			(xy 82.55 29.21) (xy 87.63 29.21)
+			(xy 104.14 104.14) (xy 110.49 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "330a0363-f541-4e8c-bdd1-9fd0ff84e1a5")
+		(uuid "31687c86-0d38-4a7b-b9d9-1dcafc3dae65")
 	)
 	(wire
 		(pts
-			(xy 187.96 101.6) (xy 187.96 107.95)
+			(xy 86.36 29.21) (xy 87.63 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a87071-f250-4291-8980-0a07220395bf")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e86679-6289-47ff-b9e9-281164b09158")
+	)
+	(wire
+		(pts
+			(xy 53.34 82.55) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3944f319-2968-4fc1-81c2-67a309efc7bd")
+	)
+	(wire
+		(pts
+			(xy 46.99 97.79) (xy 46.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3f24bf-c928-4bdd-a456-a79f279766f5")
+	)
+	(wire
+		(pts
+			(xy 215.9 92.71) (xy 215.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1986,13 +2574,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 157.48 110.49)
+			(xy 185.42 97.79) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3c1b0ea4-3e7f-4504-8f57-7b10ebf62466")
+	)
+	(wire
+		(pts
+			(xy 101.6 36.83) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40202229-395d-41e6-8046-1a4c31182866")
 	)
 	(wire
 		(pts
@@ -2016,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 106.68) (xy 143.51 111.76)
+			(xy 171.45 97.79) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2036,13 +2634,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 30.48) (xy 68.58 30.48)
+			(xy 91.44 104.14) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54017584-225a-4fb6-8516-b213189d65bc")
+		(uuid "579d5989-ac3e-4c4f-96af-8017e6874239")
 	)
 	(wire
 		(pts
@@ -2056,23 +2654,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 166.37 101.6)
+			(xy 196.85 92.71) (xy 194.31 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59d482ac-2376-40bb-a26d-c63028b5ab52")
-	)
-	(wire
-		(pts
-			(xy 83.82 50.8) (xy 88.9 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b421e7e-e24b-484a-97f4-79e38f79de4b")
 	)
 	(wire
 		(pts
@@ -2086,27 +2674,57 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 49.53) (xy 53.34 49.53)
+			(xy 67.31 107.95) (xy 67.31 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ef2b55e-1c7b-452d-ad2f-c43ce338e271")
+		(uuid "5d2a58a5-a16b-44ad-a49c-4842794c4177")
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 63.5 49.53)
+			(xy 107.95 36.83) (xy 107.95 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "619c9d85-e99f-4868-aa15-0786586c1127")
+		(uuid "5ec5b105-f4e2-4473-9da9-57f461b4588c")
 	)
 	(wire
 		(pts
-			(xy 143.51 93.98) (xy 157.48 93.98)
+			(xy 86.36 36.83) (xy 93.98 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624c2e39-f1e6-4472-a30d-07f3a1ea5972")
+	)
+	(wire
+		(pts
+			(xy 57.15 22.86) (xy 67.31 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63510eef-1843-440e-bf4b-bd54efe6a6ed")
+	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6508ca74-eca8-42ed-89c5-49a47e28e70b")
+	)
+	(wire
+		(pts
+			(xy 171.45 85.09) (xy 185.42 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2116,17 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 67.31) (xy 46.99 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685d9302-2941-4f46-9ba9-5c5c09dd2a30")
-	)
-	(wire
-		(pts
-			(xy 83.82 50.8) (xy 83.82 54.61)
+			(xy 83.82 44.45) (xy 83.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2136,13 +2744,43 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 49.53) (xy 48.26 54.61)
+			(xy 113.03 58.42) (xy 113.03 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72acc41b-b39d-4072-b82a-2445f430a330")
+		(uuid "711d2256-45c4-48f2-870d-3210e188012f")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 46.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716996b0-0e92-4eb5-9ae8-3e66c2f66342")
+	)
+	(wire
+		(pts
+			(xy 90.17 58.42) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b01f84-bc52-4a43-9832-f8c73d02f783")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c3112a-10e5-420a-8408-20a3925b05e9")
 	)
 	(wire
 		(pts
@@ -2166,7 +2804,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 114.3) (xy 190.5 114.3)
+			(xy 67.31 82.55) (xy 67.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8b3dce-c001-4e0c-a25e-5551df0326bc")
+	)
+	(wire
+		(pts
+			(xy 209.55 105.41) (xy 218.44 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2176,13 +2824,33 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 29.21) (xy 82.55 33.02)
+			(xy 107.95 21.59) (xy 107.95 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0d773a-f6f5-45b4-82e3-e56be7cada7d")
+	)
+	(wire
+		(pts
+			(xy 82.55 22.86) (xy 82.55 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "807e4cf9-19e7-46b1-9bc0-62819c14227f")
+	)
+	(wire
+		(pts
+			(xy 99.06 58.42) (xy 90.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f2bb51-b608-4978-aef6-6973f9733ea2")
 	)
 	(wire
 		(pts
@@ -2196,6 +2864,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 30.48) (xy 46.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3e23a7-1bed-40f3-a239-64e817811b1d")
+	)
+	(wire
+		(pts
 			(xy 251.46 29.21) (xy 251.46 27.94)
 		)
 		(stroke
@@ -2203,16 +2881,6 @@
 			(type default)
 		)
 		(uuid "8fa44d34-029e-4f56-8c25-a33a3887b47d")
-	)
-	(wire
-		(pts
-			(xy 46.99 30.48) (xy 52.07 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff408ae-c6a3-4d8a-843e-7404d213cd3c")
 	)
 	(wire
 		(pts
@@ -2226,17 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 49.53) (xy 63.5 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "916a7931-9037-48dd-adc5-b9dde0b7b960")
-	)
-	(wire
-		(pts
-			(xy 143.51 88.9) (xy 143.51 93.98)
+			(xy 171.45 80.01) (xy 171.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2256,13 +2914,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 30.48) (xy 46.99 35.56)
+			(xy 67.31 22.86) (xy 67.31 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93632e52-c74e-431a-8a16-68553f178b6a")
+		(uuid "955bd022-3681-4249-bc4d-4a87554ce0e7")
 	)
 	(wire
 		(pts
@@ -2276,6 +2934,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 50.8) (xy 46.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980ee889-64d9-45d3-b576-0b0a13d414ea")
+	)
+	(wire
+		(pts
+			(xy 49.53 76.2) (xy 46.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986451ca-e0f0-4714-ba80-adeb2c61595d")
+	)
+	(wire
+		(pts
 			(xy 81.28 68.58) (xy 81.28 69.85)
 		)
 		(stroke
@@ -2286,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 186.69 93.98)
+			(xy 218.44 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2974,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 46.99) (xy 48.26 49.53)
+			(xy 114.3 82.55) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a62be2c-0f30-48d0-94e1-018c70ee3772")
+	)
+	(wire
+		(pts
+			(xy 46.99 46.99) (xy 46.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2306,13 +2994,43 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 101.6) (xy 187.96 101.6)
+			(xy 67.31 67.31) (xy 67.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9f6202-deab-4c1a-a4f2-8e811843a4e7")
+	)
+	(wire
+		(pts
+			(xy 46.99 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efce372-67e7-43a2-a135-97576b30c2c4")
+	)
+	(wire
+		(pts
+			(xy 214.63 92.71) (xy 215.9 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1766307-28c3-4f55-8a2d-18cadc0e20f2")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2354e83-59a3-4809-8fb4-9b7c4a670b52")
 	)
 	(wire
 		(pts
@@ -2326,6 +3044,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 29.21) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52d4f35-398f-4c9a-9e2a-dc10c6796073")
+	)
+	(wire
+		(pts
+			(xy 102.87 43.18) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61b1408-74e5-4a0d-b93c-d531e3533222")
+	)
+	(wire
+		(pts
 			(xy 39.37 99.06) (xy 39.37 100.33)
 		)
 		(stroke
@@ -2333,16 +3071,6 @@
 			(type default)
 		)
 		(uuid "aa8ec289-11ae-48e6-8435-5aa19b42837f")
-	)
-	(wire
-		(pts
-			(xy 46.99 96.52) (xy 52.07 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac3dc3d4-5be9-4010-97d3-5158228259c8")
 	)
 	(wire
 		(pts
@@ -2366,13 +3094,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 90.17) (xy 165.1 97.79)
+			(xy 114.3 67.31) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3f0918-2bbe-4b01-9929-8a35d1a601f3")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 193.04 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afbe3985-39ab-465e-951a-ca7264cfa78d")
+	)
+	(wire
+		(pts
+			(xy 97.79 21.59) (xy 107.95 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29f4a01-b024-4896-9103-21d8d81e6f3f")
 	)
 	(wire
 		(pts
@@ -2386,6 +3134,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57dc555-e1fd-4a18-bf84-2ec6772429a0")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b791f192-a153-44d5-9297-28edc865cc46")
+	)
+	(wire
+		(pts
 			(xy 38.1 33.02) (xy 38.1 34.29)
 		)
 		(stroke
@@ -2396,13 +3164,33 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 96.52) (xy 93.98 96.52)
+			(xy 46.99 52.07) (xy 46.99 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b94614b4-6722-4260-8498-ba91f178bd51")
+		(uuid "bbe5c13f-0b6b-47a8-af9d-2b769a94e506")
+	)
+	(wire
+		(pts
+			(xy 110.49 96.52) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc422981-26e3-4724-80c4-9ed2e7b3ba49")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b2b763-f937-4d01-a1e9-57b0750ec947")
 	)
 	(wire
 		(pts
@@ -2416,6 +3204,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 43.18) (xy 113.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1c806d-318d-4154-8c4a-14ab611b40e7")
+	)
+	(wire
+		(pts
 			(xy 74.93 53.34) (xy 74.93 54.61)
 		)
 		(stroke
@@ -2423,16 +3221,6 @@
 			(type default)
 		)
 		(uuid "cdb4ece5-c48b-45bc-a926-2f488f74e3e7")
-	)
-	(wire
-		(pts
-			(xy 46.99 74.93) (xy 52.07 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0fc522c-7608-422e-9c09-7f0df6548563")
 	)
 	(wire
 		(pts
@@ -2446,6 +3234,36 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 58.42) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24b35a9-eb2c-49a1-b053-9cf8300772db")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 46.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e83431-5ea4-4a4f-a7ef-8c379a7139ed")
+	)
+	(wire
+		(pts
+			(xy 107.95 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67b8ea8-ff79-4f8e-b10c-59268aff2482")
+	)
+	(wire
+		(pts
 			(xy 38.1 22.86) (xy 38.1 25.4)
 		)
 		(stroke
@@ -2453,6 +3271,16 @@
 			(type default)
 		)
 		(uuid "d6f27c28-bd29-4964-ae5e-9b9397a6a48b")
+	)
+	(wire
+		(pts
+			(xy 57.15 67.31) (xy 67.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81a21eb-f552-4e6c-b133-63ca8c7faa1a")
 	)
 	(wire
 		(pts
@@ -2466,7 +3294,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 157.48 99.06)
+			(xy 46.99 96.52) (xy 46.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd28177d-3f18-48ca-94d2-293efd3b16c8")
+	)
+	(wire
+		(pts
+			(xy 57.15 88.9) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd75a912-9d1c-4c15-bf1d-4076c415fcf2")
+	)
+	(wire
+		(pts
+			(xy 185.42 85.09) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2476,27 +3324,37 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 110.49 96.52)
+			(xy 88.9 96.52) (xy 90.17 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1c6e520-9490-4ede-ada8-aabeb71e730f")
+		(uuid "e0a81eb0-1102-4703-8e27-6bfe61e433ee")
 	)
 	(wire
 		(pts
-			(xy 46.99 96.52) (xy 46.99 102.87)
+			(xy 67.31 59.69) (xy 67.31 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5828cb1-ff89-46f4-be70-e439c4badafa")
+		(uuid "e3ba179a-0d4c-4db6-ac74-2eeca8c5efed")
 	)
 	(wire
 		(pts
-			(xy 165.1 97.79) (xy 168.91 97.79)
+			(xy 88.9 96.52) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cad4a1-19a9-41cf-a69a-514aff7fb2db")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2506,13 +3364,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 96.52) (xy 88.9 100.33)
+			(xy 60.96 82.55) (xy 67.31 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e870ded7-c988-4e09-a5ab-aca8e16645bd")
+		(uuid "e80f1ad7-0070-44b1-a5e4-57d8b0005568")
 	)
 	(wire
 		(pts
@@ -2526,7 +3384,27 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 190.5 114.3)
+			(xy 100.33 82.55) (xy 93.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9af9e2f-e003-4095-a68c-24abe20ca34e")
+	)
+	(wire
+		(pts
+			(xy 100.33 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5a26c1-484c-4075-9a19-e80088f598f7")
+	)
+	(wire
+		(pts
+			(xy 218.44 85.09) (xy 218.44 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +3424,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 99.06) (xy 143.51 93.98)
+			(xy 171.45 90.17) (xy 171.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2556,23 +3434,73 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 166.37 114.3)
+			(xy 93.98 82.55) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef669840-84f7-4fc7-894a-c19ea7623397")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 83.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b8884f-6c3f-4790-aa4d-4af351871c7c")
+	)
+	(wire
+		(pts
+			(xy 83.82 50.8) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e456df-e318-4737-a4fe-87c9991c4cbe")
+	)
+	(wire
+		(pts
+			(xy 67.31 43.18) (xy 67.31 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3efc5cf-4a5c-4861-846e-b3db9354a274")
+	)
+	(wire
+		(pts
+			(xy 60.96 107.95) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f615d042-51ed-439a-b05d-1d30bce92fe9")
+	)
+	(wire
+		(pts
+			(xy 46.99 76.2) (xy 46.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6513f58-ad68-4cff-8664-2c287f9b4978")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 194.31 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fcfda9e7-388c-4f7b-9a37-bc9c9685d1de")
-	)
-	(wire
-		(pts
-			(xy 59.69 74.93) (xy 62.23 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb2a30b-54cc-4143-a53b-2b6a107057f9")
 	)
 	(rectangle
 		(start 31.75 140.97)
@@ -2663,7 +3591,7 @@
 		(uuid "097390cc-2333-415e-9481-bc2a5e0756ad")
 	)
 	(label "FSR_IN"
-		(at 143.51 88.9 0)
+		(at 171.45 80.01 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2685,7 +3613,7 @@
 		(uuid "0f90bcac-9fe5-4468-8e12-daa078b9c58d")
 	)
 	(label "VOUTA1"
-		(at 62.23 74.93 0)
+		(at 67.31 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2740,7 +3668,7 @@
 		(uuid "25706d0b-a099-4b56-b815-a1fccac65794")
 	)
 	(label "FSR_OUT_7"
-		(at 88.9 100.33 0)
+		(at 88.9 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2838,17 +3766,6 @@
 		)
 		(uuid "41cd85e5-f106-4141-8a88-5d1c6ab0358b")
 	)
-	(label "VOUTD"
-		(at 163.83 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "433abbd5-b062-4ce9-b891-14a5d5b765e3")
-	)
 	(label "VINC+"
 		(at 74.93 22.86 180)
 		(fields_autoplaced yes)
@@ -2882,17 +3799,6 @@
 		)
 		(uuid "50e7d484-18bc-40d8-855e-fc0b04084d93")
 	)
-	(label "VOUTC"
-		(at 163.83 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51bad685-455e-4560-96e1-f7c566782082")
-	)
 	(label "VIND+"
 		(at 128.27 49.53 180)
 		(fields_autoplaced yes)
@@ -2903,17 +3809,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a674922-81eb-4e54-8ccf-94cd88ee48f0")
-	)
-	(label "VOUTC1"
-		(at 251.46 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5affb390-c965-4146-8944-66722918020d")
 	)
 	(label "VINA+"
 		(at 38.1 22.86 180)
@@ -2926,30 +3821,8 @@
 		)
 		(uuid "5c6bfc14-304e-46ac-a7a4-73f2cbb958bb")
 	)
-	(label "VOUTA"
-		(at 163.83 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66801bc9-e230-4e86-b955-fd2197fa4e88")
-	)
-	(label "VOUTA1"
-		(at 251.46 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c65ab5d-83dc-4e1f-926a-e9ea064f4292")
-	)
 	(label "VOUTD"
-		(at 99.06 50.8 0)
+		(at 113.03 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3026,7 +3899,7 @@
 		(uuid "8e8d064b-2c1a-4e99-aa0e-c90c2766f7cc")
 	)
 	(label "VOUTD1"
-		(at 102.87 96.52 0)
+		(at 110.49 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3035,28 +3908,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f1b1d44-fe10-42ca-ada8-2a7f9bee52a7")
-	)
-	(label "VOUTB"
-		(at 163.83 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93cac4c4-fd2f-4dae-8ea3-47256b40ce49")
-	)
-	(label "VOUTB1"
-		(at 251.46 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9436eabb-832a-495e-ab67-602bef23c5d1")
 	)
 	(label "VINC1+"
 		(at 81.28 68.58 180)
@@ -3070,7 +3921,7 @@
 		(uuid "9911d66b-2348-4f04-ac8f-76b8017fa7bd")
 	)
 	(label "VOUTB"
-		(at 63.5 48.26 0)
+		(at 67.31 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3125,7 +3976,7 @@
 		(uuid "b76c8ce9-23d9-41d0-9480-e8c59195c6f9")
 	)
 	(label "VOUTA"
-		(at 60.96 30.48 0)
+		(at 67.31 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3158,7 +4009,7 @@
 		(uuid "c15af010-87cf-4af4-af0b-2e0226260667")
 	)
 	(label "VINB-"
-		(at 48.26 46.99 0)
+		(at 46.99 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3224,7 +4075,7 @@
 		(uuid "d712176d-e942-4673-843a-86888a01d89e")
 	)
 	(label "FSR_OUT_1"
-		(at 48.26 54.61 0)
+		(at 46.99 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3233,6 +4084,17 @@
 			(justify left bottom)
 		)
 		(uuid "dad3d842-d3a8-42c9-8b6b-c8d5be0ae309")
+	)
+	(label "VOUTC1"
+		(at 114.3 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbceaf9f-0e60-4c18-a74b-2e7afa60d26f")
 	)
 	(label "FSR_OUT_5"
 		(at 46.99 102.87 0)
@@ -3267,17 +4129,6 @@
 		)
 		(uuid "e3391619-a191-4a3e-87e1-8b35e6c81a5e")
 	)
-	(label "VOUTC1"
-		(at 102.87 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6013e51-a91d-4937-b4aa-8a4b17d34a22")
-	)
 	(label "VINA+"
 		(at 128.27 34.29 180)
 		(fields_autoplaced yes)
@@ -3301,7 +4152,7 @@
 		(uuid "edeecd5e-cc2c-4cd7-a606-bfc79472b22c")
 	)
 	(label "VOUTA1"
-		(at 63.5 96.52 0)
+		(at 67.31 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3312,7 +4163,7 @@
 		(uuid "f438dd6e-55ac-4f37-b43b-2c3d0e9e28b1")
 	)
 	(label "VOUTC"
-		(at 97.79 29.21 0)
+		(at 107.95 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3322,16 +4173,101 @@
 		)
 		(uuid "f699d376-d9eb-44a3-acc1-f7911d44c9cd")
 	)
-	(label "VOUTD1"
+	(hierarchical_label "VOUTA1"
+		(shape input)
+		(at 251.46 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "421d3f77-ebf3-4e5c-a634-873d8f2c2add")
+	)
+	(hierarchical_label "VOUTB1"
+		(shape input)
+		(at 251.46 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c80452c-fe9a-49b7-b9a2-c44f59303c2a")
+	)
+	(hierarchical_label "VOUTB"
+		(shape input)
+		(at 163.83 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56cf0c63-b406-46d0-838f-d5d9bb982252")
+	)
+	(hierarchical_label "VOUTC1"
+		(shape input)
+		(at 251.46 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73a556b5-83cd-4d61-ba8a-1fbed86df53b")
+	)
+	(hierarchical_label "VOUTA"
+		(shape input)
+		(at 163.83 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "890d27b6-f5a4-42b2-bd56-14afea244342")
+	)
+	(hierarchical_label "VOUTD"
+		(shape input)
+		(at 163.83 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb51ab7-fa83-47cf-82d2-25d8833d5080")
+	)
+	(hierarchical_label "VOUTD1"
+		(shape input)
 		(at 251.46 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "fee522ae-e6ec-4963-84c2-1320c96146d5")
+		(uuid "b857a1fb-1aee-45ba-8dfc-71181a154aa5")
+	)
+	(hierarchical_label "VOUTC"
+		(shape input)
+		(at 163.83 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7c77a95-c9bf-4ed7-a4eb-e42173b07309")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3536,142 +4472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a264de5-1a1c-4209-99b2-b783ac33800a")
-		(property "Reference" "R2"
-			(at 55.88 25.3195 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 55.88 27.7438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 55.88 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d15ad95c-8b50-4a3a-ab11-026f3960a50d")
-		)
-		(pin "1"
-			(uuid "e8f371ba-0d7a-4054-bec1-0ebb25c07c9a")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11e53e84-245a-496e-817a-4e4fdf39dd2f")
-		(property "Reference" "R17"
-			(at 97.79 91.3595 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 97.79 93.7838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8be3ac35-f682-48c5-9c06-236dcbc1489f")
-		)
-		(pin "1"
-			(uuid "986631c6-eddc-4b9f-9a73-1d3909a5ec6f")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 54.61 0)
 		(unit 1)
@@ -3739,7 +4539,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 114.3 90)
+		(at 205.74 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3748,7 +4548,7 @@
 		(fields_autoplaced yes)
 		(uuid "1594547c-40a9-47c3-9a4a-affff64f6ad0")
 		(property "Reference" "C5"
-			(at 177.8 107.9965 90)
+			(at 205.74 99.1065 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +4556,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 177.8 110.4208 90)
+			(at 205.74 101.5308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +4564,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 181.61 113.3348 0)
+			(at 209.55 104.4448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 114.3 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +4582,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 114.3 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +4607,7 @@
 	)
 	(symbol
 		(lib_id "ChargePumpInverter:ADM8829")
-		(at 177.8 97.79 0)
+		(at 205.74 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3816,7 +4616,7 @@
 		(fields_autoplaced yes)
 		(uuid "15a43a2c-78b7-4b43-9c32-5f91dee25e0e")
 		(property "Reference" "U4"
-			(at 177.8 90.1784 0)
+			(at 205.74 81.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +4624,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 177.8 91.8598 0)
+			(at 205.74 82.9698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +4632,7 @@
 			)
 		)
 		(property "Footprint" "ADM8829:SOT95P280X145-6N"
-			(at 177.8 97.79 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +4641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 97.79 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +4650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 97.79 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,6 +4753,74 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 97.79 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1adef558-d644-468a-b505-01b950f8a261")
+		(property "Reference" "C6"
+			(at 97.79 30.5265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 97.79 32.9508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 101.6 35.8648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b453c65f-e447-44f1-a3bd-2c117e284e0d")
+		)
+		(pin "2"
+			(uuid "b6e261b8-0851-4534-9055-82f85c8f2c4c")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 181.61 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4022,8 +4890,200 @@
 		)
 	)
 	(symbol
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 97.79 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2157bde6-5fb2-42c6-8de7-2a01ac0f84e8")
+		(property "Reference" "R7"
+			(at 97.79 33.8003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 97.79 36.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cab3c823-3a15-446d-adf7-1cc719ac2385")
+		)
+		(pin "2"
+			(uuid "99489930-76fc-413f-a250-9076b3cfcbbc")
+		)
+		(pin "1"
+			(uuid "70af8374-502f-4399-8b02-af95f9a232b5")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 143.51 111.76 0)
+		(at 171.45 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4032,7 +5092,7 @@
 		(fields_autoplaced yes)
 		(uuid "24e6a9db-7c9e-4aeb-9419-f8ce47d23261")
 		(property "Reference" "#PWR039"
-			(at 143.51 118.11 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +5101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 115.8931 0)
+			(at 171.45 107.0031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +5109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 111.76 0)
+			(at 171.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +5118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 111.76 0)
+			(at 171.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +5127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 111.76 0)
+			(at 171.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,33 +5148,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 57.15 49.53 90)
+		(lib_id "Device:C")
+		(at 57.15 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "291949c3-592e-4468-8e87-122ece9376ba")
-		(property "Reference" "R5"
-			(at 57.15 44.3695 90)
+		(uuid "2bf4d74c-c44f-413c-95b7-d2176288aaad")
+		(property "Reference" "C12"
+			(at 57.15 101.6465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 57.15 46.7938 90)
+		(property "Value" "10nF"
+			(at 57.15 104.0708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.15 51.308 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 60.96 106.9848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +5183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 49.53 0)
+			(at 57.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,25 +5191,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 57.15 49.53 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "77b5bf6b-fc6d-4248-9e99-9e72b42cd63e")
 		)
 		(pin "1"
-			(uuid "26ded964-0184-4bab-b4f3-b8a9eefb2b95")
+			(uuid "e9d9f582-9354-4ea5-9268-c35c8610e5f8")
+		)
+		(pin "2"
+			(uuid "fc062891-6829-4438-9a77-48973ba5a799")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4157,7 +5217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 107.95 0)
+		(at 215.9 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4166,7 +5226,7 @@
 		(fields_autoplaced yes)
 		(uuid "329b8c6c-798a-48d6-91fc-faa336bdb2d6")
 		(property "Reference" "#PWR025"
-			(at 187.96 114.3 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +5235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 112.0831 0)
+			(at 215.9 103.1931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +5243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 107.95 0)
+			(at 215.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +5252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 107.95 0)
+			(at 215.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +5261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 107.95 0)
+			(at 215.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,6 +5346,198 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 57.15 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3784d757-f4a8-48ec-b00b-5fc8e46107d8")
+		(property "Reference" "R12"
+			(at 57.15 79.5203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 57.15 81.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ca45d278-2f16-4bb2-9840-17d25418f3b1")
+		)
+		(pin "2"
+			(uuid "2395d7a4-2a1d-4ee6-96e8-73fb195989db")
+		)
+		(pin "1"
+			(uuid "ff3a7415-5528-4f4a-9dde-171f1f5a61d7")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4424,33 +5676,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 91.44 29.21 90)
+		(lib_id "Device:C")
+		(at 57.15 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e33e3cf-ea29-465d-9675-4097c269662b")
-		(property "Reference" "R7"
-			(at 91.44 24.0495 90)
+		(uuid "3fe55fcf-ed31-456e-852f-dc893745d3a7")
+		(property "Reference" "C7"
+			(at 57.15 14.0165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 91.44 26.4738 90)
+		(property "Value" "10nF"
+			(at 57.15 16.4408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 91.44 30.988 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 60.96 19.3548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +5711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 29.21 0)
+			(at 57.15 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,25 +5719,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 91.44 29.21 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "25f9e0bc-6340-4b1f-a78e-5a95a0c4b1a2")
 		)
 		(pin "1"
-			(uuid "f9392252-7e63-4da2-a30e-993225a3b221")
+			(uuid "4f515002-d388-4bbb-be97-1eee9a38484b")
+		)
+		(pin "2"
+			(uuid "f9ab01eb-c9c7-4ab3-b866-2d3b327488a5")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R7")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4493,7 +5745,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 110.49 0)
+		(at 185.42 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4502,7 +5754,7 @@
 		(fields_autoplaced yes)
 		(uuid "40c0f1b1-fbe3-4fc9-aaab-674286b5d815")
 		(property "Reference" "#PWR026"
-			(at 157.48 116.84 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +5763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 114.6231 0)
+			(at 185.42 105.7331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +5771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 110.49 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +5780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 110.49 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +5789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 110.49 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,74 +5936,6 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53079e9a-7e2f-400a-8c74-fdf50001a44b")
-		(property "Reference" "R13"
-			(at 55.88 69.7695 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 55.88 72.1938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 55.88 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b96c571e-c55d-44e2-868e-fc20b8ccd1f1")
-		)
-		(pin "1"
-			(uuid "65d97caf-8410-4afa-95b5-32874bd46503")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4957,75 +6141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a1a6880-c6a5-4c2a-ac24-b9200a3a4fb1")
-		(property "Reference" "R12"
-			(at 55.88 91.3595 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 55.88 93.7838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 55.88 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f464346-58a8-49a3-a886-46f7e33529f9")
-		)
-		(pin "1"
-			(uuid "17c80bb8-29ce-4543-ae17-9b316e1294de")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 102.87 180)
+		(at 171.45 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5034,7 +6150,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bac5b22-501d-4a92-9895-b46baf4b7cf1")
 		(property "Reference" "R18"
-			(at 145.288 101.6578 0)
+			(at 173.228 92.7678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +6159,7 @@
 			)
 		)
 		(property "Value" "3.5k"
-			(at 145.288 104.0821 0)
+			(at 173.228 95.1921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +6168,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 145.288 102.87 90)
+			(at 173.228 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +6177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 102.87 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +6186,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 102.87 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,6 +6204,197 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 100.33 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60193944-f0d3-47ab-88c8-09799e6273c3")
+		(property "Reference" "R16"
+			(at 104.902 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 105.918 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6fe82ad8-2d08-401f-b9b2-871073d3f6e9")
+		)
+		(pin "2"
+			(uuid "632163e1-39b5-4a5e-860e-9f04391a15e0")
+		)
+		(pin "1"
+			(uuid "bed1947b-0883-4356-9f17-33b42aa9b277")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5788,33 +7095,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 74.93 90)
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 102.87 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8222a7bb-7bec-44ef-9c29-6ec9fb03fb9a")
-		(property "Reference" "R16"
-			(at 97.79 69.7695 90)
+		(uuid "7fffd7b1-7886-41d6-970c-8b8ecc4b4e5a")
+		(property "Reference" "R9"
+			(at 102.87 55.3903 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 97.79 72.1938 90)
+		(property "Value" "TC33X-2-302E"
+			(at 102.87 57.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 76.708 90)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,8 +7139,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 97.79 74.93 0)
+		(property "Description" ""
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,25 +7148,139 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 97.79 74.93 0)
+		(property "MF" "Bourns"
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08178603-1bbf-4433-9d01-49819083ba57")
 		)
 		(pin "2"
-			(uuid "768dd98a-c661-4218-8cb2-e9fc98ca1fc9")
+			(uuid "adddee3c-f3b4-4e60-b340-73ed6571860f")
 		)
 		(pin "1"
-			(uuid "93c853ab-1782-4b00-98b4-0107b997efb4")
+			(uuid "164c3e29-9e71-4fde-8f43-e8d8ce5a81fb")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5993,7 +7424,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 165.1 90.17 0)
+		(at 193.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6002,7 +7433,7 @@
 		(fields_autoplaced yes)
 		(uuid "891a3eb5-dfa9-4152-9cd0-a552e49b8246")
 		(property "Reference" "#PWR024"
-			(at 165.1 93.98 0)
+			(at 193.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +7442,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 165.1 86.0369 0)
+			(at 193.04 77.1469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +7450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 90.17 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,7 +7459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 90.17 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +7468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 165.1 90.17 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,6 +7483,265 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9021d92a-5ff9-401b-84b8-3329d126f13c")
+		(property "Reference" "C11"
+			(at 100.33 97.8365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 100.33 100.2608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 104.14 103.1748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c8d9d4-8f06-466c-b176-6050a8ef68a1")
+		)
+		(pin "2"
+			(uuid "dac128a4-497a-4fc7-bb73-f1446e4b68b7")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 57.15 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "935ac28d-b982-4f06-8199-d2738f4124ac")
+		(property "Reference" "R2"
+			(at 59.436 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 58.928 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5b49983c-8c26-46e3-b03d-e30bd6df3246")
+		)
+		(pin "2"
+			(uuid "c851a236-9da5-41ca-80a4-b5bca49b9c83")
+		)
+		(pin "1"
+			(uuid "5309a86a-cb3b-4d7b-a645-0b1e7d9c2bf7")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6184,6 +7874,74 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a639274-f58f-4fdc-a17d-2c9bbed77d10")
+		(property "Reference" "C9"
+			(at 102.87 52.1165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 102.87 54.5408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 106.68 57.4548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f7bbea6-21a6-41da-8aa1-38e42f7ca0b5")
+		)
+		(pin "2"
+			(uuid "2002c0f7-d840-4090-b704-2c24ac10c841")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6325,33 +8083,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 92.71 50.8 90)
+		(lib_id "Device:C")
+		(at 57.15 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a62f4605-5eaa-4f7a-bcca-d7b2c919904f")
-		(property "Reference" "R9"
-			(at 92.71 45.6395 90)
+		(uuid "a371d2c8-4401-4bc9-9c5d-5610f5249472")
+		(property "Reference" "C8"
+			(at 57.15 53.3865 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 92.71 48.0638 90)
+		(property "Value" "10nF"
+			(at 57.15 55.8108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 92.71 52.578 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 60.96 58.7248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +8118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 50.8 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,25 +8126,93 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 92.71 50.8 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "1543d760-d138-49a7-bf61-8ed656ff0f2c")
 		)
 		(pin "1"
-			(uuid "94ae3fa7-8d95-4345-8903-e1dce7538fc9")
+			(uuid "64a6f745-3dfa-40ae-b88b-46bc69363030")
+		)
+		(pin "2"
+			(uuid "4ef7857a-2286-493f-9303-10bd4f9aa8e2")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R9")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a62e50e2-fe5a-447d-b527-abd0f53cb0a2")
+		(property "Reference" "C10"
+			(at 104.14 76.2465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 104.14 78.6708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 107.95 81.5848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cea5376f-86ca-48ce-af39-db46729e093b")
+		)
+		(pin "2"
+			(uuid "106879ed-90fa-4052-b927-aefe68adab53")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6464,7 +8290,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 102.87 0)
+		(at 185.42 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6473,7 +8299,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd8222da-ecb9-4db0-ae13-6fe903416794")
 		(property "Reference" "C4"
-			(at 160.401 101.6578 0)
+			(at 188.341 92.7678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +8308,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 160.401 104.0821 0)
+			(at 188.341 95.1921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 158.4452 106.68 0)
+			(at 186.3852 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +8326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 102.87 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +8335,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 102.87 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,6 +8495,198 @@
 		)
 	)
 	(symbol
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 57.15 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca5339bb-9b69-4d4a-b351-cf9bef92220c")
+		(property "Reference" "R5"
+			(at 57.15 55.3903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 57.15 57.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e222209e-5cb5-4a39-9a56-365d3ce7beb6")
+		)
+		(pin "2"
+			(uuid "53c252b4-8ada-4582-b618-465e43d3d2a8")
+		)
+		(pin "1"
+			(uuid "5b774629-c21c-4557-a3b4-206ccb643ee7")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 77.47 0)
 		(unit 1)
@@ -6729,6 +8747,74 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7099fb0-d104-438a-bf09-7064f372efce")
+		(property "Reference" "C13"
+			(at 57.15 76.2465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 57.15 78.6708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 60.96 81.5848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c936ff3-973e-4933-bbcf-c73660d47582")
+		)
+		(pin "2"
+			(uuid "abcdb8c6-a944-476c-931a-e32f52a4ed64")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6799,6 +8885,198 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 57.15 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc100e4-a264-4736-a2c7-2da8d5e30fc2")
+		(property "Reference" "R17"
+			(at 57.15 101.1103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 57.15 103.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a6145213-8d21-4f7c-9a44-6fbd429560df")
+		)
+		(pin "2"
+			(uuid "571bdbbb-a826-4e95-9919-2fad3f7daa98")
+		)
+		(pin "1"
+			(uuid "b0de15bd-763a-40e1-bedd-d509991676c6")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6931,6 +9209,198 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3x3TrimPot:TC33X-2-302E")
+		(at 104.14 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e812a87d-b26d-4997-98c8-aff8be851372")
+		(property "Reference" "R19"
+			(at 104.14 79.5203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 104.14 81.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TC33X-2-302E:TRIM_TC33X-2-302E"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Res Trimmer 100K Ohm 25% 1/10W 1_Elec_/1_Mech_Turn _3 X 3.8mm_ Foot Print SMD Embossed T/R"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Bourns"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Bourns"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=eda"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC33X-2-302E/Bourns/view-part/?ref=snap"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TC33X-2-302E"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3 kOhms 0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment\n                        \n"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "af4b04cc-c512-4f23-b669-275b920189e7")
+		)
+		(pin "2"
+			(uuid "d1c00580-6baf-4268-87b7-8861de2cfa66")
+		)
+		(pin "1"
+			(uuid "d4f69220-1d60-490e-a3c5-ea0d5dcab1d2")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
+					(reference "R19")
 					(unit 1)
 				)
 			)

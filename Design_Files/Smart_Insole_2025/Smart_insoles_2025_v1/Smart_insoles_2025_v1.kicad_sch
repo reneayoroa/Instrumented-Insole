@@ -2174,6 +2174,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 132.08) (xy 151.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154f3a56-54ba-4633-8394-71c01fdf1d46")
+	)
+	(wire
+		(pts
 			(xy 212.09 36.83) (xy 223.52 36.83)
 		)
 		(stroke
@@ -2191,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "191bdb85-4855-4ed3-b576-cbcf6d3e57e1")
+	)
+	(wire
+		(pts
+			(xy 149.86 129.54) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b17466d-7e19-4cfe-aecd-c1caf5080e69")
 	)
 	(wire
 		(pts
@@ -2221,6 +2241,16 @@
 			(type default)
 		)
 		(uuid "2b4bb8f0-21ed-4617-a0f0-e3b9468738b5")
+	)
+	(wire
+		(pts
+			(xy 149.86 124.46) (xy 151.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfaa9d8-f33d-481c-a0e2-9369e7e6e7f0")
 	)
 	(wire
 		(pts
@@ -2314,6 +2344,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 144.78) (xy 151.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c1aace-f0a7-4124-b0b1-e05e481fcaa0")
+	)
+	(wire
+		(pts
+			(xy 149.86 147.32) (xy 151.13 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864bb12c-7c13-4db5-b585-f8b2aa4280bf")
+	)
+	(wire
+		(pts
 			(xy 34.29 60.96) (xy 38.1 60.96)
 		)
 		(stroke
@@ -2341,6 +2391,16 @@
 			(type default)
 		)
 		(uuid "9ac3cac0-02b8-4f24-b8cb-6f06783d91ae")
+	)
+	(wire
+		(pts
+			(xy 149.86 127) (xy 151.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a506a4-1acd-418c-83aa-698403a8af0c")
 	)
 	(wire
 		(pts
@@ -2381,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "b8853e31-db06-420c-9d47-ce56527e499a")
+	)
+	(wire
+		(pts
+			(xy 149.86 149.86) (xy 151.13 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89ae4a3-5475-4fd7-a1b2-9f83bde98e8d")
 	)
 	(wire
 		(pts
@@ -2441,6 +2511,16 @@
 			(type default)
 		)
 		(uuid "cacf33cf-4870-43e5-93e7-efed96156617")
+	)
+	(wire
+		(pts
+			(xy 149.86 142.24) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3b7bac-aecb-4eb8-b1f6-278c94e33e31")
 	)
 	(wire
 		(pts
@@ -2621,6 +2701,17 @@
 		)
 		(uuid "0acaf2be-c7f6-40ee-a751-26a092dfc171")
 	)
+	(label "I1"
+		(at 149.86 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bfef44f-84ca-40a5-a7ca-7605ca13f0ba")
+	)
 	(label "S1"
 		(at 34.29 50.8 180)
 		(fields_autoplaced yes)
@@ -2653,6 +2744,17 @@
 			(justify right bottom)
 		)
 		(uuid "2aedc43e-c938-46c4-971b-5cd652f7cc26")
+	)
+	(label "I5"
+		(at 149.86 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ae7e000-0faf-48e9-97de-75aec3924272")
 	)
 	(label "I6"
 		(at 45.72 147.32 180)
@@ -2687,6 +2789,17 @@
 		)
 		(uuid "761bd976-b497-4507-9ae9-3ca31be72f86")
 	)
+	(label "I6"
+		(at 149.86 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e8250f6-ac64-4d41-b43c-58782e1b0232")
+	)
 	(label "S2"
 		(at 44.45 119.38 180)
 		(fields_autoplaced yes)
@@ -2708,6 +2821,39 @@
 			(justify right bottom)
 		)
 		(uuid "824d6e0d-9fdc-4156-ae7e-7b1bae3f911f")
+	)
+	(label "I0"
+		(at 149.86 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84c3c40b-d59f-4b2d-86a1-b15e69aaef3f")
+	)
+	(label "I7"
+		(at 149.86 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85d5c09f-e7b5-4850-81ef-d9f538aabf02")
+	)
+	(label "I4"
+		(at 149.86 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e80fad5-edd8-4f7e-9103-672b071a984c")
 	)
 	(label "I0"
 		(at 45.72 132.08 180)
@@ -2786,6 +2932,17 @@
 		)
 		(uuid "b727a615-d310-42eb-9072-8f30e406c714")
 	)
+	(label "I2"
+		(at 149.86 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7ff6541-ccf6-4e9e-baf4-45cbb7e00db3")
+	)
 	(label "INT"
 		(at 130.81 58.42 180)
 		(fields_autoplaced yes)
@@ -2807,6 +2964,17 @@
 			(justify right bottom)
 		)
 		(uuid "cd3d1664-dedc-444c-97d6-f607a5211086")
+	)
+	(label "I3"
+		(at 149.86 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cddb0a36-6651-4d94-933b-599a96d6177c")
 	)
 	(label "I7"
 		(at 45.72 149.86 180)
@@ -4421,6 +4589,86 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "VOUTD1" input
+			(at 151.13 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0bfc8f9-8961-4c6c-8bb9-72c79e963d33")
+		)
+		(pin "VOUTC1" input
+			(at 151.13 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d5147db-1bcc-40af-ab0c-28aead926d7e")
+		)
+		(pin "VOUTA1" input
+			(at 151.13 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23f5636b-b324-4e0c-aa89-b2da3066064b")
+		)
+		(pin "VOUTB1" input
+			(at 151.13 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b39f9c2-e88d-40a6-a75b-efc1629b98cf")
+		)
+		(pin "VOUTA" input
+			(at 151.13 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1aea7b09-992c-462d-8f3c-77119436dcd9")
+		)
+		(pin "VOUTD" input
+			(at 151.13 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7b1b5eb-a5b0-4a73-a3d4-effc6ae2c2a1")
+		)
+		(pin "VOUTC" input
+			(at 151.13 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c67cb135-1197-428a-b082-ffc1c71ac5a7")
+		)
+		(pin "VOUTB" input
+			(at 151.13 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e1c0c35-8e8c-4232-a2f1-b5a1e94ccfa7")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"

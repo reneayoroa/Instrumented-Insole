@@ -5,4 +5,5 @@
   (lib (name "GY-521")(type "KiCad")(uri "${KIPRJMOD}/Project_library/GY-521")(options "")(descr ""))
   (lib (name "ADM8829")(type "KiCad")(uri "${KIPRJMOD}/Project_library/ADM8829")(options "")(descr ""))
   (lib (name "MCP6004_I_ST")(type "KiCad")(uri "${KIPRJMOD}/Project_library/MCP6004_I_ST")(options "")(descr ""))
+  (lib (name "3x3_TrimPot")(type "KiCad")(uri "${KIPRJMOD}/Project_library/3x3_TrimPot")(options "")(descr ""))
 )
