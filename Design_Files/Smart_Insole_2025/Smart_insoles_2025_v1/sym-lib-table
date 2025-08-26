@@ -6,4 +6,5 @@
   (lib (name "ChargePumpInverter")(type "KiCad")(uri "${KIPRJMOD}/Project_library/ChargePumpInverter.kicad_sym")(options "")(descr ""))
   (lib (name "MCP6004-I_ST")(type "KiCad")(uri "${KIPRJMOD}/Project_library/MCP6004_I_ST/MCP6004-I_ST.kicad_sym")(options "")(descr ""))
   (lib (name "3x3TrimPot")(type "KiCad")(uri "${KIPRJMOD}/Project_library/3x3_TrimPot/TC33X-2-302E.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/Project_library/LDM6S032TR/LSM6DSO32TR.kicad_sym")(options "")(descr ""))
 )

@@ -835,6 +835,373 @@
 				)
 			)
 		)
+		(symbol "Device:R_Pack04"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.985 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_0_1"
+				(rectangle
+					(start -6.35 -2.413)
+					(end 3.81 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 1.905)
+					(end -4.445 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_1_1"
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ESP32-C3_SUPERMINI:ESP32-C3_SUPERMINI_SMD"
 			(pin_names
 				(offset 1.016)
@@ -1310,15 +1677,15 @@
 				)
 			)
 		)
-		(symbol "GY-521:GY-521"
+		(symbol "LSM6DSO32TR:LSM6DSO32TR"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ACC"
-				(at -9.652 11.938 0)
+			(property "Reference" "U"
+				(at -12.7 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1326,21 +1693,22 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "GY-521"
-				(at 4.572 -11.938 0)
+			(property "Value" "LSM6DSO32TR"
+				(at -12.7 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LSM6DSO32TR:XDCR_LSM6DSO32TR"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1362,7 +1730,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "GODREAM FORDREAM CO., LIMITED"
+			(property "MF" "STMicroelectronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1372,7 +1740,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Triple Axis Accelerometer Gyro Breakout\n                        \n"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.86mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1382,7 +1750,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "Package"
+			(property "Package" "VFLGA-14 STMicroelectronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1402,7 +1770,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
+			(property "Check_prices" "https://www.snapeda.com/parts/LSM6DSO32TR/STMicroelectronics/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1412,7 +1780,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "GY-521"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1422,7 +1790,7 @@
 					(hide yes)
 				)
 			)
-			(property "Availability" "Not in stock"
+			(property "PARTREV" "1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1432,7 +1800,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LSM6DSO32TR/STMicroelectronics/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1442,242 +1810,69 @@
 					(hide yes)
 				)
 			)
-			(symbol "GY-521_0_0"
-				(arc
-					(start -11.43 -9.43)
-					(mid -10.8442 -10.8442)
-					(end -9.43 -11.43)
-					(stroke
-						(width 0.4064)
-						(type default)
+			(property "MP" "LSM6DSO32TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(arc
-					(start -9.43 11.43)
-					(mid -10.8442 10.8442)
-					(end -11.43 9.43)
-					(stroke
-						(width 0.4064)
-						(type default)
+			)
+			(property "Description_1" "\n                        \n                            Accelerometer, Gyroscope, Temperature, 6 Axis Sensor I2C, SPI Output\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -11.43 -9.43) (xy -11.43 9.43)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -9.43 11.43) (xy 4.35 11.43)
+			)
+			(property "MANUFACTURER" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -3.175 -3.175) (xy -3.175 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -3.175) (xy -1.27 -3.175)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -3.175 -3.175)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.35 -11.43) (xy -9.43 -11.43)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 9.43) (xy 6.35 -9.43)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
+			)
+			(symbol "LSM6DSO32TR_0_0"
+				(rectangle
+					(start -12.7 -17.78)
+					(end 12.7 15.24)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.35 -11.43)
-					(mid 5.7642 -10.8442)
-					(end 6.35 -9.43)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 9.43)
-					(mid 5.7642 10.8442)
-					(end 4.35 11.43)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "MPU"
-					(at 0 -10.16 0)
-					(effects
-						(font
-							(size 2 2)
-						)
-						(justify left bottom)
+						(type background)
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 -6.35 0)
+					(at 17.78 -5.08 180)
 					(length 5.08)
-					(name "AD0"
+					(name "SDO/SA0"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AD0"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1685,17 +1880,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -16.51 6.35 0)
+				(pin no_connect line
+					(at -17.78 -7.62 0)
 					(length 5.08)
-					(name "GND"
+					(name "NC"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "GND"
+					(number "10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1703,17 +1898,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -16.51 -8.89 0)
+				(pin no_connect line
+					(at -17.78 -10.16 0)
 					(length 5.08)
-					(name "INT"
+					(name "NC__1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "INT"
+					(number "11"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1721,8 +1916,26 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -16.51 3.81 0)
+				(pin input line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 17.78 0 180)
 					(length 5.08)
 					(name "SCL"
 						(effects
@@ -1731,7 +1944,7 @@
 							)
 						)
 					)
-					(number "SCL"
+					(number "13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1740,7 +1953,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 1.27 0)
+					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "SDA"
 						(effects
@@ -1749,7 +1962,61 @@
 							)
 						)
 					)
-					(number "SDA"
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "SDX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "SCX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1758,16 +2025,16 @@
 					)
 				)
 				(pin power_in line
-					(at -16.51 8.89 0)
+					(at 17.78 10.16 180)
 					(length 5.08)
-					(name "VCC"
+					(name "VDDIO"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "VCC"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1775,17 +2042,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -16.51 -3.81 0)
+				(pin power_in line
+					(at 17.78 -12.7 180)
 					(length 5.08)
-					(name "XCL"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "XCL"
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1793,17 +2060,53 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -16.51 -1.27 0)
+				(pin power_in line
+					(at 17.78 -15.24 180)
 					(length 5.08)
-					(name "XDA"
+					(name "GND__1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "XDA"
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2031,6 +2334,36 @@
 		)
 	)
 	(junction
+		(at 173.99 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18c1d0ec-95aa-442d-b16b-a6c4ebcf9831")
+	)
+	(junction
+		(at 176.53 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c6693f9-7cb9-4b1b-ab81-dcddb5c673fc")
+	)
+	(junction
+		(at 176.53 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e88d407-af9f-41a9-aedc-09dbfc1dbce9")
+	)
+	(junction
+		(at 171.45 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c2e3b28-6778-4365-bc16-d98438240b55")
+	)
+	(junction
+		(at 149.86 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f1eba90-f3cd-40aa-a4f4-c8b3825d896f")
+	)
+	(junction
 		(at 212.09 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2057,6 +2390,10 @@
 	(no_connect
 		(at 73.66 40.64)
 		(uuid "0c132dbe-8faf-4be0-b660-cc27e2ab55d1")
+	)
+	(no_connect
+		(at 114.3 46.99)
+		(uuid "271a7274-5b49-4caa-8575-7628f423f430")
 	)
 	(no_connect
 		(at 82.55 144.78)
@@ -2087,12 +2424,8 @@
 		(uuid "6be7c9a0-0bc5-46b5-a2db-3ac14c95d6b1")
 	)
 	(no_connect
-		(at 133.35 50.8)
-		(uuid "722787bc-fd6c-4381-a3f0-04c562251458")
-	)
-	(no_connect
-		(at 133.35 55.88)
-		(uuid "96e54f16-0944-454e-9761-356a7edae88c")
+		(at 149.86 41.91)
+		(uuid "9765d531-ccf5-4cb6-bc77-13dd158f2c3f")
 	)
 	(no_connect
 		(at 82.55 142.24)
@@ -2111,12 +2444,12 @@
 		(uuid "b0b7249f-610e-4e4f-9793-0692fb58c40b")
 	)
 	(no_connect
-		(at 133.35 53.34)
-		(uuid "c64b4fa4-14f9-4a5d-b146-a80f9e6f9f6f")
-	)
-	(no_connect
 		(at 82.55 139.7)
 		(uuid "d9f1a78e-8e38-4fb0-a0d4-ab7c38189edd")
+	)
+	(no_connect
+		(at 114.3 49.53)
+		(uuid "ec55fd62-a703-44b6-9887-d3ac4873e9f5")
 	)
 	(no_connect
 		(at 73.66 60.96)
@@ -2194,16 +2527,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 45.72) (xy 133.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191bdb85-4855-4ed3-b576-cbcf6d3e57e1")
-	)
-	(wire
-		(pts
 			(xy 149.86 129.54) (xy 151.13 129.54)
 		)
 		(stroke
@@ -2254,6 +2577,46 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 59.69) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d74bfa4-5001-481d-9ecc-f1f58eca3918")
+	)
+	(wire
+		(pts
+			(xy 176.53 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea9a67f-40d5-4773-8b15-8bfbcff9cc77")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b252d6-b23b-4471-a55e-ea88cfe83f15")
+	)
+	(wire
+		(pts
+			(xy 173.99 69.85) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a10c13-349a-4559-969f-a353f99f04ad")
+	)
+	(wire
+		(pts
 			(xy 34.29 48.26) (xy 38.1 48.26)
 		)
 		(stroke
@@ -2271,6 +2634,26 @@
 			(type default)
 		)
 		(uuid "5b595bdc-714b-4c2d-b5c1-95679f5fc597")
+	)
+	(wire
+		(pts
+			(xy 149.86 36.83) (xy 170.18 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617444f1-48e1-4e3a-8936-cff332c509fb")
+	)
+	(wire
+		(pts
+			(xy 171.45 71.12) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634473ae-3e3a-439e-b16f-2de1e1255a24")
 	)
 	(wire
 		(pts
@@ -2324,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 71.12) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e2a7a2-6b84-4f1b-b31d-6af8e1edf4df")
+	)
+	(wire
+		(pts
 			(xy 80.01 38.1) (xy 80.01 43.18)
 		)
 		(stroke
@@ -2331,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "79af74c7-ae34-4392-9a2f-d942ac4a7181")
+	)
+	(wire
+		(pts
+			(xy 177.8 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e3ae09-adeb-400f-992e-67f13099986e")
 	)
 	(wire
 		(pts
@@ -2384,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 46.99) (xy 151.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca86fd6-4c71-448a-886b-297f9d67a11b")
+	)
+	(wire
+		(pts
 			(xy 73.66 43.18) (xy 80.01 43.18)
 		)
 		(stroke
@@ -2414,6 +2827,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 59.69) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85bfb7c-2bf9-43f4-9487-80e7c6f96ced")
+	)
+	(wire
+		(pts
 			(xy 77.47 68.58) (xy 73.66 68.58)
 		)
 		(stroke
@@ -2421,6 +2844,26 @@
 			(type default)
 		)
 		(uuid "b18a8ab6-c37a-4302-b635-34d092c72638")
+	)
+	(wire
+		(pts
+			(xy 173.99 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b364194d-19cd-400c-92b7-3df0e2f4a01b")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49eb9ef-069b-4c0a-aa15-c7a0ae89a880")
 	)
 	(wire
 		(pts
@@ -2494,6 +2937,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 59.69) (xy 173.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4714c0e-a5ee-4985-a4ed-72d8a4b23d94")
+	)
+	(wire
+		(pts
 			(xy 44.45 119.38) (xy 46.99 119.38)
 		)
 		(stroke
@@ -2544,13 +2997,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 133.35 58.42)
+			(xy 151.13 54.61) (xy 149.86 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5932671-9497-4871-9f74-c4d0470e287f")
+		(uuid "d8a03984-1d29-4cf2-90af-62278170baa5")
 	)
 	(wire
 		(pts
@@ -2584,13 +3037,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 133.35 48.26)
+			(xy 151.13 52.07) (xy 149.86 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcc593b4-ca03-4f88-babc-3ec7aed54ae5")
+		(uuid "fa448b75-4f3a-4f10-845e-b72fb04d2c6a")
 	)
 	(rectangle
 		(start 200.66 22.86)
@@ -2605,8 +3058,8 @@
 		(uuid 7f11e251-8b04-4d05-86d4-ea21269990c6)
 	)
 	(rectangle
-		(start 116.84 27.94)
-		(end 173.99 71.12)
+		(start 107.188 23.622)
+		(end 187.198 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -2640,16 +3093,6 @@
 		)
 		(uuid a9a806f5-0c8e-48cf-ab31-5a29927af974)
 	)
-	(text "Needs to change to the new mpu"
-		(exclude_from_sim no)
-		(at 135.89 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5c2c5f9a-ccf3-4a28-9476-3905c4af943e")
-	)
 	(text "CD74HC4067 Analog Multiplexer"
 		(exclude_from_sim no)
 		(at 46.482 95.25 0)
@@ -2672,7 +3115,7 @@
 	)
 	(text "MPU6050 - Accelerometer/Gyroscope"
 		(exclude_from_sim no)
-		(at 136.652 25.908 0)
+		(at 127 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2734,6 +3177,28 @@
 		)
 		(uuid "27c097b7-2371-4cf4-9399-1cb95c904ca3")
 	)
+	(label "SDA"
+		(at 151.13 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29ea0757-4e4b-4933-a7bf-23400494aa5b")
+	)
+	(label "INT"
+		(at 114.3 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a01fe58-5fce-4446-a06b-230b5218215a")
+	)
 	(label "I3"
 		(at 45.72 139.7 180)
 		(fields_autoplaced yes)
@@ -2744,6 +3209,16 @@
 			(justify right bottom)
 		)
 		(uuid "2aedc43e-c938-46c4-971b-5cd652f7cc26")
+	)
+	(label "CS"
+		(at 151.13 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d8f40aa-dde5-4b4e-94b1-7541e7de5796")
 	)
 	(label "I5"
 		(at 149.86 144.78 180)
@@ -2767,8 +3242,8 @@
 		)
 		(uuid "422057a9-e6d1-40e2-a376-06357381f8df")
 	)
-	(label "SCL"
-		(at 132.08 45.72 180)
+	(label "CS"
+		(at 168.91 71.12 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2776,7 +3251,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "42f7106d-c381-4790-af4d-d0bec0121d8f")
+		(uuid "505c39df-8f6a-41f9-a27e-e610aa290861")
 	)
 	(label "I5"
 		(at 45.72 144.78 180)
@@ -2910,6 +3385,17 @@
 		)
 		(uuid "b2088cb7-8c82-4c75-8a4a-6fc9e77a64d5")
 	)
+	(label "SDA"
+		(at 173.99 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b572624b-fd66-4263-8093-83a7cff4e517")
+	)
 	(label "S1"
 		(at 44.45 116.84 180)
 		(fields_autoplaced yes)
@@ -2920,17 +3406,6 @@
 			(justify right bottom)
 		)
 		(uuid "b5edcf98-becf-496d-8a90-4a712b0b126e")
-	)
-	(label "SDA"
-		(at 132.08 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b727a615-d310-42eb-9072-8f30e406c714")
 	)
 	(label "I2"
 		(at 149.86 129.54 180)
@@ -2943,8 +3418,8 @@
 		)
 		(uuid "b7ff6541-ccf6-4e9e-baf4-45cbb7e00db3")
 	)
-	(label "INT"
-		(at 130.81 58.42 180)
+	(label "SCL"
+		(at 176.53 71.12 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2952,7 +3427,28 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c48c6681-034f-4d06-b04c-d88d96147809")
+		(uuid "ba51c687-5eb2-41bd-880e-93e34b42e139")
+	)
+	(label "SDO/SA0"
+		(at 151.13 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c444bd07-d78f-4c42-b722-4fad38077d48")
+	)
+	(label "SDO/SA0"
+		(at 171.45 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5c290d3-18a0-4731-b217-820d6979a9c8")
 	)
 	(label "SIG"
 		(at 45.72 127 180)
@@ -3008,6 +3504,17 @@
 			(justify right bottom)
 		)
 		(uuid "e050f27e-4158-4a7b-8dfc-a0cb4c2a525c")
+	)
+	(label "SCL"
+		(at 151.13 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7967a06-3d12-4bb7-a588-c480f734488f")
 	)
 	(label "I2"
 		(at 45.72 137.16 180)
@@ -3748,6 +4255,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 170.18 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4afe036d-8a9f-4bb9-8acd-7fa8a870c943")
+		(property "Reference" "#PWR021"
+			(at 170.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 48.5831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dfcf298-a0fc-4347-9e5e-da3952f99a76")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 83.82 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3813,17 +4386,26 @@
 		)
 	)
 	(symbol
-		(lib_id "GY-521:GY-521")
-		(at 149.86 49.53 0)
+		(lib_id "power:GND")
+		(at 149.86 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a46d232-7adf-4aae-a5df-271e5cb59bc3")
-		(property "Reference" "ACC1"
-			(at 157.2259 48.3178 0)
+		(uuid "60b52161-eb88-49e9-8804-4735c6e81472")
+		(property "Reference" "#PWR09"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.765 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,17 +4413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GY-521"
-			(at 157.2259 50.7421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GY-521:GY-521_SMD"
-			(at 149.86 49.53 0)
+		(property "Footprint" ""
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +4423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 49.53 0)
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,8 +4431,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 149.86 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,114 +4440,80 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "GODREAM FORDREAM CO., LIMITED"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Triple Axis Accelerometer Gyro Breakout\n                        \n"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "GY-521"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "XCL"
-			(uuid "cb692b59-781c-436d-8985-c2b81660814f")
-		)
-		(pin "AD0"
-			(uuid "18129887-d114-45dc-8074-73fb47957a49")
-		)
-		(pin "GND"
-			(uuid "da96cf10-925b-4c96-869b-f9ff9206315f")
-		)
-		(pin "SDA"
-			(uuid "89df10a6-dcef-4c4d-9c26-fb3341578d65")
-		)
-		(pin "SCL"
-			(uuid "91551e10-9e71-498c-9ec0-9ca3b4a543d4")
-		)
-		(pin "XDA"
-			(uuid "da14d810-97cf-446d-b169-e12460d8542b")
-		)
-		(pin "VCC"
-			(uuid "3d3bbf7f-6912-4f71-b4a6-04a70e70135f")
-		)
-		(pin "INT"
-			(uuid "ab72c725-c0f7-4f1b-9f9c-9b155e6f3142")
+		(pin "1"
+			(uuid "fa035c88-2deb-4847-b160-37579784bb5b")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
-					(reference "ACC1")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 177.8 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700ea414-e2c0-4e2b-a13c-b1c4d9379d92")
+		(property "Reference" "#PWR027"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 180.975 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a06cf62-9f6c-496f-b82b-9a560280edd9")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4183,17 +4722,242 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 43.18 270)
+		(lib_id "LSM6DSO32TR:LSM6DSO32TR")
+		(at 132.08 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c8f349fa-88eb-4465-8923-04a83b176ee3")
+		(uuid "98b67ed6-376d-41c0-a181-e7dd6f127433")
+		(property "Reference" "U3"
+			(at 132.08 27.6055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LSM6DSO32TR"
+			(at 132.08 30.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LSM6DSO32TR:XDCR_LSM6DSO32TR"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.86mm"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "VFLGA-14 STMicroelectronics"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LSM6DSO32TR/STMicroelectronics/view-part/?ref=eda"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LSM6DSO32TR/STMicroelectronics/view-part/?ref=snap"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LSM6DSO32TR"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Accelerometer, Gyroscope, Temperature, 6 Axis Sensor I2C, SPI Output\n                        \n"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4a0118a7-5a46-417b-8638-eb2b04469d89")
+		)
+		(pin "4"
+			(uuid "f4210425-9b0f-4cb5-976a-8c3a2cadae2d")
+		)
+		(pin "5"
+			(uuid "22dfe86b-93a5-402e-b482-f6bcdd3cd2b6")
+		)
+		(pin "14"
+			(uuid "72ae4db6-0fa7-49fb-accf-043f2837dc19")
+		)
+		(pin "7"
+			(uuid "1ea5e4aa-48e4-4a1f-9e21-c92d213d2a1a")
+		)
+		(pin "2"
+			(uuid "bab0da56-568e-449e-b088-713b8356d794")
+		)
+		(pin "13"
+			(uuid "1f435a21-0d0d-478d-8a94-a116d6c9302b")
+		)
+		(pin "11"
+			(uuid "327756b4-9ef2-4053-a752-792131c32447")
+		)
+		(pin "10"
+			(uuid "4486642b-700c-446b-8999-765f51c6d965")
+		)
+		(pin "3"
+			(uuid "0fffdb18-3fd9-43fb-a053-a50c8d48f742")
+		)
+		(pin "1"
+			(uuid "c015429a-db03-4913-9439-b2eccaf27d76")
+		)
+		(pin "12"
+			(uuid "ee4732b8-de15-43c3-b5cf-7526c7967584")
+		)
+		(pin "9"
+			(uuid "24539bc9-9915-4d2a-ada2-263a8d5037fd")
+		)
+		(pin "6"
+			(uuid "0e34bb5f-baf6-483b-8f48-afc28c18bff9")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c540b668-c199-457a-885f-be2dc323c355")
 		(property "Reference" "#PWR020"
-			(at 127 43.18 0)
+			(at 176.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,16 +4966,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.1751 43.18 90)
+			(at 176.53 46.0431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 43.18 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 43.18 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 43.18 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +5001,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9063edba-c7ce-499c-934d-c2d60491e732")
+			(uuid "8ca536d8-8f6f-4fff-bc59-4662324b619d")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
@@ -4320,26 +5083,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 133.35 40.64 90)
+		(lib_id "Device:C")
+		(at 170.18 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d60c2e41-7e1d-4e87-b94d-e59680ddf921")
-		(property "Reference" "#PWR021"
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 130.175 40.64 90)
+		(uuid "d419717f-a14b-4a0e-8e30-147ae793ea01")
+		(property "Reference" "C15"
+			(at 162.56 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,8 +5100,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 40.64 0)
+		(property "Value" "100nF"
+			(at 161.544 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 171.1452 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,8 +5118,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 40.64 0)
+		(property "Datasheet" "~"
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,8 +5127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 133.35 40.64 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,12 +5137,103 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f7c4bf2-977a-4723-b6e9-dfb93bddeda5")
+			(uuid "84d03a7b-a34e-401c-ad74-2dc4251c15e8")
+		)
+		(pin "2"
+			(uuid "1188bd33-7de0-4e69-b1ac-2e0a0a6e482e")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
-					(reference "#PWR021")
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 173.99 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbcb149a-76ca-4eea-acfb-a7d5da6738f4")
+		(property "Reference" "RN1"
+			(at 178.562 63.5578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 178.562 65.9821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 180.975 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology"
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d5d922c-4ee1-4b35-9035-8a0599482902")
+		)
+		(pin "5"
+			(uuid "c1379b9b-0e2d-436d-a326-d9da7197177d")
+		)
+		(pin "1"
+			(uuid "28485277-31aa-4569-8577-bb57bda4a9d2")
+		)
+		(pin "8"
+			(uuid "2253128d-a7b6-47a8-b89a-db9d57ee6986")
+		)
+		(pin "7"
+			(uuid "59d4e199-ed83-4b05-9804-d524d56634e4")
+		)
+		(pin "2"
+			(uuid "40d08850-0394-41ae-83dd-fcb7f260db74")
+		)
+		(pin "4"
+			(uuid "a8c89972-271f-4edb-be85-1f0d67638911")
+		)
+		(pin "6"
+			(uuid "ddd880cd-a75d-4e6d-ba71-d3a680af44d0")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -4457,6 +5310,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 176.53 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e31a62e7-877b-433e-8b93-2f881f8ca37e")
+		(property "Reference" "C14"
+			(at 179.451 36.8878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 179.451 39.3121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 177.4952 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08079691-097f-400a-84fd-e84774799aa9")
+		)
+		(pin "2"
+			(uuid "f3b2324f-88a1-4553-ab47-5c9b02b22a90")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 212.09 35.56 0)
 		(unit 1)
@@ -4517,6 +5440,73 @@
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 176.53 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feeb5974-059e-4726-b08e-c9d5f4835ca4")
+		(property "Reference" "#PWR06"
+			(at 172.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 179.705 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "009096e9-f48e-4386-a291-67d738fbb5e1")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
