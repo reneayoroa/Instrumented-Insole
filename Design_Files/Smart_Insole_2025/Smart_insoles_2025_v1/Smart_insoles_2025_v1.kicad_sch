@@ -4747,7 +4747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSM6DSO32TR:XDCR_LSM6DSO32TR"
+		(property "Footprint" "LDM6S032TR:XDCR_LSM6DSO32TR"
 			(at 132.08 46.99 0)
 			(effects
 				(font

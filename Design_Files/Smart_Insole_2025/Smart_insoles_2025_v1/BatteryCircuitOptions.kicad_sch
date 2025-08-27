@@ -5,29 +5,42 @@
 	(uuid "f7b39e56-b1b7-458b-855e-40a4a75ce2c3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at -5.0829 5.5957 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "S2B-PH-SM4-TB_LF__SN_"
+				(at -5.0881 -11.9627 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -36,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,120 +58,186 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "MF" "JST Sales"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Description_1" "\n                        \n                            Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)\n                        \n"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "Package" "None"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "S2B-PH-SM4-TB_LF__SN__0_0"
 				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+					(start -5.08 -10.16)
+					(end 5.08 5.08)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "SHIELD__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -394,6 +473,14 @@
 			)
 		)
 	)
+	(no_connect
+		(at 54.61 50.8)
+		(uuid "076ebe01-3cf1-41d4-b88f-8d4e18eac175")
+	)
+	(no_connect
+		(at 54.61 53.34)
+		(uuid "383ecc4c-acc6-4d74-8d78-f24ad58417b1")
+	)
 	(rectangle
 		(start 24.13 19.05)
 		(end 185.42 107.95)
@@ -417,86 +504,17 @@
 		(uuid "ce527630-bb62-4795-9849-3429d3346ac3")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 45.72 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c186150-08a9-4793-ba1b-3855a032bb0e")
-		(property "Reference" "J2"
-			(at 46.4312 43.2378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 38.1 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb4134b4-6699-46dd-9560-26eb0f20cf66")
-		)
-		(pin "2"
-			(uuid "02671bc6-ee98-4961-8928-3d8d9d6ee2fa")
-		)
-		(instances
-			(project "Smart_insoles_2025_v1"
-				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 40.64 45.72 180)
+		(lib_id "power:+BATT")
+		(at 54.61 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f8dbd16-af63-44da-9f1d-a27b12f96e0e")
-		(property "Reference" "#PWR023"
-			(at 40.64 41.91 0)
+		(uuid "07a04445-f685-48a7-907c-db02db07a52f")
+		(property "Reference" "#PWR022"
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,16 +522,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-BATT"
-			(at 40.64 49.8531 0)
+		(property "Value" "+BATT"
+			(at 51.435 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 45.72 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 45.72 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,8 +549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 40.64 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +559,74 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4ae0619-8d3f-47ed-9847-25449ddb8100")
+			(uuid "4186320b-9e11-4028-8fa2-d1eaa76bc653")
+		)
+		(instances
+			(project "Smart_insoles_2025_v1"
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 54.61 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ef058fc-1986-415a-ac5d-98b76b4e10c5")
+		(property "Reference" "#PWR023"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 51.435 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "925136f2-868f-4849-b914-3b6e32d1d99f")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
@@ -552,43 +638,45 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 40.64 43.18 0)
+		(lib_id "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_")
+		(at 62.23 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd6212e5-19e4-4b6e-a248-b417498bf5a5")
-		(property "Reference" "#PWR022"
-			(at 40.64 46.99 0)
+		(uuid "61ec6a35-aacf-4e9f-b684-b37d22c26736")
+		(property "Reference" "J3"
+			(at 68.0212 47.0478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 40.64 39.0469 0)
+		(property "Value" "S2B-PH-SM4-TB_LF__SN_"
+			(at 68.0212 49.4721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 43.18 0)
+		(property "Footprint" "JST-PH2-2.00MM-SMD-HORIZONTAL:JST_S2B-PH-SM4-TB_LF__SN_"
+			(at 62.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 43.18 0)
+			(at 62.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,22 +684,131 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 40.64 43.18 0)
+		(property "Description" ""
+			(at 62.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)\n                        \n"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=eda"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=snap"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "4527ef0d-d8d6-4288-81b0-4fc590d14b92")
+			(uuid "3a882f04-d8c7-4135-b14d-c8766eff7a34")
+		)
+		(pin "2"
+			(uuid "ddb98941-37bb-479a-ba55-536a2a73ecd3")
+		)
+		(pin "S2"
+			(uuid "5939447a-24e5-4a0c-8724-1237bc9685c3")
+		)
+		(pin "S1"
+			(uuid "f977aa00-11ed-4232-ba7a-0500d01ecdd4")
 		)
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
-					(reference "#PWR022")
+					(reference "J3")
 					(unit 1)
 				)
 			)
