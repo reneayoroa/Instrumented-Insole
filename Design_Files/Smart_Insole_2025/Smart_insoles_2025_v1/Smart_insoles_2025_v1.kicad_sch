@@ -3212,6 +3212,7 @@
 	)
 	(label "CS"
 		(at 151.13 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3431,6 +3432,7 @@
 	)
 	(label "SDO/SA0"
 		(at 151.13 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -2491,16 +2491,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 151.13) (xy 72.39 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f7427d-2acc-4d72-bdbd-429c400eb5a7")
-	)
-	(wire
-		(pts
 			(xy 86.36 36.83) (xy 86.36 29.21)
 		)
 		(stroke
@@ -3098,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "a61b1408-74e5-4a0d-b93c-d531e3533222")
+	)
+	(wire
+		(pts
+			(xy 72.39 151.13) (xy 72.39 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6634a08-7b38-4fc3-8caa-89aa2aa51259")
 	)
 	(wire
 		(pts
@@ -3812,6 +3812,17 @@
 		)
 		(uuid "4843d460-cec1-49ed-927f-d1aad82cef1e")
 	)
+	(label "VOUTA"
+		(at 46.99 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e3c9e8d-abe3-4006-a7a4-43f5f3083daf")
+	)
 	(label "FSR_OUT_0"
 		(at 46.99 35.56 0)
 		(fields_autoplaced yes)
@@ -3889,6 +3900,17 @@
 		)
 		(uuid "7685c5e5-0195-4e36-b185-b66565a87e87")
 	)
+	(label "VOUTD"
+		(at 62.23 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "899b56c5-fdab-4e68-98d9-e85ea97aec5e")
+	)
 	(label "VIND+"
 		(at 74.93 44.45 180)
 		(fields_autoplaced yes)
@@ -3910,6 +3932,17 @@
 			(justify left bottom)
 		)
 		(uuid "8f1b1d44-fe10-42ca-ada8-2a7f9bee52a7")
+	)
+	(label "VOUTA1"
+		(at 67.31 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97ee1a71-83cc-4d22-a287-72a8d0df30f3")
 	)
 	(label "VINC1+"
 		(at 81.28 68.58 180)
@@ -3966,6 +3999,17 @@
 		)
 		(uuid "b76c8ce9-23d9-41d0-9480-e8c59195c6f9")
 	)
+	(label "VOUTB1"
+		(at 72.39 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b96fa804-e2fa-4dc2-b6fc-f94044a010e4")
+	)
 	(label "VOUTA"
 		(at 67.31 30.48 0)
 		(fields_autoplaced yes)
@@ -3999,6 +4043,17 @@
 		)
 		(uuid "c15af010-87cf-4af4-af0b-2e0226260667")
 	)
+	(label "VOUTC"
+		(at 57.15 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c40510e6-be82-4e81-8e9b-3360a1d0c50b")
+	)
 	(label "VINB-"
 		(at 46.99 46.99 0)
 		(fields_autoplaced yes)
@@ -4009,6 +4064,17 @@
 			(justify left bottom)
 		)
 		(uuid "c408567e-9504-4468-8d04-a096e445b1ab")
+	)
+	(label "VOUTB"
+		(at 52.07 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c65845dd-edca-4002-a139-7ca81b53fd48")
 	)
 	(label "VINA-"
 		(at 46.99 22.86 0)
@@ -4087,6 +4153,17 @@
 		)
 		(uuid "dddf30dc-a24d-4c89-8fcb-69c6a82167ea")
 	)
+	(label "VOUTD1"
+		(at 82.55 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e05be212-0ba1-4633-aa98-48bb311a91ae")
+	)
 	(label "VINB1-"
 		(at 46.99 90.17 0)
 		(fields_autoplaced yes)
@@ -4119,6 +4196,17 @@
 			(justify right bottom)
 		)
 		(uuid "edeecd5e-cc2c-4cd7-a606-bfc79472b22c")
+	)
+	(label "VOUTC1"
+		(at 77.47 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efeb6d2a-1a81-4aad-878b-8012f737c3a7")
 	)
 	(label "VOUTB1"
 		(at 68.58 96.52 0)
@@ -6460,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP6004_I_ST:SOP65P640X120-14N"
+		(property "Footprint" "MCP6004_I_ST:custom"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -6566,6 +6654,62 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "3D model" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Manufacturer" ""
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6903,7 +7047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP6004_I_ST:SOP65P640X120-14N"
+		(property "Footprint" "MCP6004_I_ST:custom"
 			(at 233.68 44.45 0)
 			(effects
 				(font
@@ -7009,6 +7153,62 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "3D model" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Manufacturer" ""
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
