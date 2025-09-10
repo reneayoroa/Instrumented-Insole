@@ -2286,7 +2286,7 @@
 		(uuid "e9be070f-b1cc-4127-9b79-2204f5b3462d")
 	)
 	(junction
-		(at 264.16 27.94)
+		(at 264.16 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f087c9b4-ebe9-4a3d-aaea-415bcfbeb156")
@@ -2901,16 +2901,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 29.21) (xy 251.46 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa44d34-029e-4f56-8c25-a33a3887b47d")
-	)
-	(wire
-		(pts
 			(xy 67.31 151.13) (xy 67.31 161.29)
 		)
 		(stroke
@@ -3111,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 27.94) (xy 264.16 27.94)
+			(xy 251.46 29.21) (xy 264.16 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4394,7 +4384,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 264.16 27.94 0)
+		(at 264.16 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4403,7 +4393,7 @@
 		(fields_autoplaced yes)
 		(uuid "07f11f54-37e4-4bbf-bb5a-0ba8bcb49293")
 		(property "Reference" "#PWR045"
-			(at 264.16 31.75 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4402,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 264.16 23.8069 0)
+			(at 264.16 25.0769 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 27.94 0)
+			(at 264.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 27.94 0)
+			(at 264.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 264.16 27.94 0)
+			(at 264.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +4944,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2157bde6-5fb2-42c6-8de7-2a01ac0f84e8")
 		(property "Reference" "R7"
 			(at 97.79 33.8003 0)
@@ -4973,12 +4962,13 @@
 			)
 		)
 		(property "Footprint" "3x3_TrimPot:TRIM_TC33X-2-302E"
-			(at 97.79 29.21 0)
+			(at 99.568 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7456,7 +7446,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 264.16 31.75 0)
+		(at 264.16 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7465,7 +7455,7 @@
 		(fields_autoplaced yes)
 		(uuid "829f19d5-7eb8-416b-bd4a-10d2621949c0")
 		(property "Reference" "C17"
-			(at 267.081 30.5378 0)
+			(at 267.081 31.8078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7464,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 267.081 32.9621 0)
+			(at 267.081 34.2321 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7473,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 265.1252 35.56 0)
+			(at 265.1252 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +7482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 31.75 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +7491,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 264.16 31.75 0)
+			(at 264.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 35.56 0)
+		(at 264.16 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7535,7 +7525,7 @@
 		(fields_autoplaced yes)
 		(uuid "84cb8491-102e-4708-9aca-57b84ada1fda")
 		(property "Reference" "#PWR044"
-			(at 264.16 41.91 0)
+			(at 264.16 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 39.6931 0)
+			(at 264.16 40.9631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 35.56 0)
+			(at 264.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 35.56 0)
+			(at 264.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 35.56 0)
+			(at 264.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

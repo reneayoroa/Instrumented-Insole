@@ -1511,11 +1511,11 @@
 		(uuid "f2e7a598-6fed-449c-99db-3b86d2a9f428")
 	)
 	(no_connect
-		(at 36.83 62.23)
+		(at 36.83 49.53)
 		(uuid "076ebe01-3cf1-41d4-b88f-8d4e18eac175")
 	)
 	(no_connect
-		(at 36.83 64.77)
+		(at 36.83 52.07)
 		(uuid "383ecc4c-acc6-4d74-8d78-f24ad58417b1")
 	)
 	(no_connect
@@ -1554,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 100.33 66.04)
+			(xy 104.14 59.69) (xy 104.14 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 58.42) (xy 31.75 57.15)
+			(xy 31.75 45.72) (xy 31.75 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1634,16 +1634,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 100.33 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e646745-d73f-4674-a8c3-730322e74828")
-	)
-	(wire
-		(pts
 			(xy 153.67 38.1) (xy 143.51 38.1)
 		)
 		(stroke
@@ -1654,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 44.45) (xy 95.25 44.45)
+			(xy 101.6 44.45) (xy 95.25 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 38.1) (xy 100.33 44.45)
+			(xy 101.6 38.1) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1714,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 57.15) (xy 36.83 57.15)
+			(xy 31.75 44.45) (xy 36.83 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +1774,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 50.8) (xy 100.33 53.34)
+			(xy 104.14 43.18) (xy 104.14 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1814,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 100.33 38.1)
+			(xy 104.14 38.1) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1831,16 +1821,6 @@
 			(type default)
 		)
 		(uuid "eb9e0828-f478-4717-bd36-9daf96cff274")
-	)
-	(wire
-		(pts
-			(xy 104.14 43.18) (xy 104.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97b878c-8e0c-4ba2-a8c6-597334760c19")
 	)
 	(rectangle
 		(start 24.13 19.05)
@@ -1866,7 +1846,7 @@
 	)
 	(text "Jst Battery connector"
 		(exclude_from_sim no)
-		(at 48.514 49.784 0)
+		(at 48.514 37.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +1911,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 36.83 54.61 90)
+		(at 36.83 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1940,7 +1920,7 @@
 		(fields_autoplaced yes)
 		(uuid "07a04445-f685-48a7-907c-db02db07a52f")
 		(property "Reference" "#PWR022"
-			(at 40.64 54.61 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +1929,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 33.655 54.61 90)
+			(at 33.655 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 54.61 0)
+			(at 36.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 54.61 0)
+			(at 36.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 36.83 54.61 0)
+			(at 36.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,16 +2456,15 @@
 	)
 	(symbol
 		(lib_id "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_")
-		(at 44.45 57.15 0)
+		(at 44.45 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61ec6a35-aacf-4e9f-b684-b37d22c26736")
 		(property "Reference" "J3"
-			(at 50.2412 58.4778 0)
+			(at 50.2412 45.7778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2473,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB_LF__SN_"
-			(at 50.2412 60.9021 0)
+			(at 32.004 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2482,7 @@
 			)
 		)
 		(property "Footprint" "JST-PH2-2.00MM-SMD-HORIZONTAL:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2510,7 @@
 			)
 		)
 		(property "MF" "JST Sales"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2520,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)\n                        \n"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2530,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2540,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2550,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=eda"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2560,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2570,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=snap"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2580,7 @@
 			)
 		)
 		(property "MP" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2590,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2600,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 44.45 57.15 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 58.42 0)
+		(at 31.75 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2662,7 +2641,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bfdad4f-6e1f-4e2e-b253-52776523fea6")
 		(property "Reference" "#PWR023"
-			(at 31.75 64.77 0)
+			(at 31.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2650,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 62.5531 0)
+			(at 31.75 49.8531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 58.42 0)
+			(at 31.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 58.42 0)
+			(at 31.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 58.42 0)
+			(at 31.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2904,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 66.04 0)
+		(at 104.14 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2934,7 +2913,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0ca0151-e07c-4328-9b1a-a4f9ebdb0af5")
 		(property "Reference" "#PWR047"
-			(at 100.33 72.39 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2922,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 70.1731 0)
+			(at 104.14 66.3631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 66.04 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +2939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 66.04 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +2948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 66.04 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2970,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 100.33 57.15 0)
+		(at 104.14 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3000,7 +2979,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6955b2b-0677-48c7-97ed-0d353f99c9b9")
 		(property "Reference" "TH1"
-			(at 102.743 56.2553 0)
+			(at 106.553 54.9853 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +2988,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 102.743 58.6796 0)
+			(at 106.553 57.4096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +2997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 55.88 0)
+			(at 104.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3006,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 55.88 0)
+			(at 104.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3015,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 100.33 57.15 0)
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3030,7 @@
 			(uuid "cb930218-d0c6-48ca-afa7-96eddce59399")
 		)
 		(instances
-			(project ""
+			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
 					(reference "TH1")
 					(unit 1)
