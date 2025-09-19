@@ -1499,12 +1499,6 @@
 		(uuid "b8859dcb-acb7-41d2-b1e0-ef75635d6d17")
 	)
 	(junction
-		(at 85.09 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e33b1323-5b81-4714-8d61-53f3cca5642e")
-	)
-	(junction
 		(at 163.83 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1631,6 +1625,16 @@
 			(type default)
 		)
 		(uuid "5843cb6e-b9ae-4ff0-882b-42b65153a2aa")
+	)
+	(wire
+		(pts
+			(xy 173.99 38.1) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66838107-d9d8-464c-967c-c0798091246c")
 	)
 	(wire
 		(pts
@@ -1794,16 +1798,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 85.09 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4663bc-a6db-4d02-952d-7652d0877ddd")
-	)
-	(wire
-		(pts
 			(xy 104.14 38.1) (xy 101.6 38.1)
 		)
 		(stroke
@@ -1824,7 +1818,7 @@
 	)
 	(rectangle
 		(start 24.13 19.05)
-		(end 185.42 107.95)
+		(end 209.55 107.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -1898,16 +1892,25 @@
 		)
 		(uuid "d052eaa8-455b-4a0b-b817-9851d29c98d7")
 	)
-	(label "5V_IN"
-		(at 85.09 31.75 0)
-		(fields_autoplaced yes)
+	(global_label "VBUS"
+		(shape input)
+		(at 85.09 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "eefdbf06-8d9b-4a7c-9c35-42e8af7ef925")
+		(uuid "f26814b3-5e1d-441a-9fb9-c0bfb6ad11f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+BATT")
@@ -2249,7 +2252,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 163.83 38.1 270)
+		(at 173.99 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2258,7 +2261,7 @@
 		(fields_autoplaced yes)
 		(uuid "44a42151-6ab4-4521-a605-04a0f5a47ca0")
 		(property "Reference" "#PWR042"
-			(at 160.02 38.1 0)
+			(at 170.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2270,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 167.005 38.1 90)
+			(at 177.165 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 38.1 0)
+			(at 173.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 38.1 0)
+			(at 173.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 163.83 38.1 0)
+			(at 173.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
