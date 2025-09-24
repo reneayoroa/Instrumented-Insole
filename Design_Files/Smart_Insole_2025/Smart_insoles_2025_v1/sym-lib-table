@@ -9,4 +9,6 @@
   (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/Project_library/LDM6S032TR/LSM6DSO32TR.kicad_sym")(options "")(descr ""))
   (lib (name "S2B-PH-SM4-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/Project_library/JST-PH2-2.00MM-SMD-HORIZONTAL/S2B-PH-SM4-TB_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-C3-MINI-1-N4")(type "KiCad")(uri "${KIPRJMOD}/Project_library/ESP32-C3-MINI-1-N4/ESP32-C3-MINI-1-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "FDN306P")(type "KiCad")(uri "${KIPRJMOD}/Project_library/FDN306P/FDN306P.kicad_sym")(options "")(descr ""))
+  (lib (name "USBLC6-2SC6")(type "Legacy")(uri "${KIPRJMOD}/Project_library/USBLC6-2SC6/USBLC6-2SC6.lib")(options "")(descr ""))
 )
