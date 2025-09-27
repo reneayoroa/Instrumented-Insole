@@ -3876,16 +3876,6 @@
 		)
 		(uuid "4204c317-d35b-4489-a14d-978b40898e99")
 	)
-	(label "Vsel"
-		(at 226.06 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44cfc389-93ff-4089-b10a-759cbf85faa3")
-	)
 	(label "~{CHG}"
 		(at 135.89 50.8 0)
 		(effects
@@ -3975,6 +3965,38 @@
 			(justify left bottom)
 		)
 		(uuid "d052eaa8-455b-4a0b-b817-9851d29c98d7")
+	)
+	(label "IN"
+		(at 93.98 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5d4007f-f94a-46dc-be5b-6f6d2ad2854d")
+	)
+	(global_label "Vsel"
+		(shape output)
+		(at 226.06 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2eb030e5-16c8-47f2-9229-305cab2d276a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9157 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VBUS"
 		(shape input)

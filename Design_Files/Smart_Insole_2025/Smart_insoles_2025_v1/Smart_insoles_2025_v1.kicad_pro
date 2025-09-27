@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -781,6 +781,10 @@
     [
       "135b5ea7-25f3-4129-91ac-40520285a267",
       "External_Peripherals"
+    ],
+    [
+      "b19f5448-2243-4e3e-9dc2-3dfe205a5c07",
+      "Mechanical_TestPoints"
     ]
   ],
   "text_variables": {}
