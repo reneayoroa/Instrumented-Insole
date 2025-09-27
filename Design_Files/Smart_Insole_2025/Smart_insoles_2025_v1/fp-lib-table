@@ -12,4 +12,5 @@
   (lib (name "FDN306P")(type "KiCad")(uri "${KIPRJMOD}/Project_library/FDN306P")(options "")(descr ""))
   (lib (name "USBLC6-2SC6")(type "KiCad")(uri "${KIPRJMOD}/Project_library/USBLC6-2SC6")(options "")(descr ""))
   (lib (name "BQ24040DSQR")(type "KiCad")(uri "${KIPRJMOD}/Project_library/BQ24040DSQR")(options "")(descr ""))
+  (lib (name "thermistor_10k_NTC_solderPad")(type "KiCad")(uri "${KIPRJMOD}/Project_library/thermistor_10k_NTC_solderPad.pretty")(options "")(descr ""))
 )

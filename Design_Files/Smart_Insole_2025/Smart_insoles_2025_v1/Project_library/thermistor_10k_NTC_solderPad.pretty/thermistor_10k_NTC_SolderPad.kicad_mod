@@ -1,0 +1,95 @@
+(footprint "thermistor_10k_NTC_SolderPad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.286 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2289f562-fa33-4755-84e8-b3fd811c71e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Thermistor_10K_NTC_solderPad"
+		(at 0.254 2.794 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00923971-5227-49d2-9b99-7f5efe95bb4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07127714-b7a9-441c-93b0-745c2667af66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7041939b-4723-4819-aa63-ade3a4fc58b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.302 -1.524)
+		(end 3.302 1.524)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "35e01769-8af2-46d7-b762-0fb4ff2a3c0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.572 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a4d59ce-4760-48a9-8783-6d50df01a262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.032 0)
+		(size 1.905 2.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8d435a39-9f87-4156-8f8e-2f956cd1c9e2")
+	)
+	(pad "2" smd roundrect
+		(at 2.032 0)
+		(size 1.905 2.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "281e2523-1ba1-4c49-8f83-72d3d2747b89")
+	)
+	(embedded_fonts no)
+)
