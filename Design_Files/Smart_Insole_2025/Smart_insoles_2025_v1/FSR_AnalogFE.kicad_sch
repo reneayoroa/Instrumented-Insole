@@ -2328,20 +2328,8 @@
 		(uuid "e9be070f-b1cc-4127-9b79-2204f5b3462d")
 	)
 	(no_connect
-		(at 41.91 166.37)
-		(uuid "8250b33a-bb84-48df-a7b1-5e73ae1bbc4e")
-	)
-	(no_connect
 		(at 214.63 88.9)
 		(uuid "c2f0eff9-14ea-4f40-8dbf-fe2cc520561a")
-	)
-	(no_connect
-		(at 39.37 166.37)
-		(uuid "e0731f66-ca22-482b-ab0e-89fdfb3e980c")
-	)
-	(no_connect
-		(at 36.83 166.37)
-		(uuid "face04bf-18a8-4a95-b63b-e2eb5f849aa9")
 	)
 	(wire
 		(pts
@@ -3733,6 +3721,26 @@
 		)
 		(uuid "9e9f4741-16ee-4670-9cc1-c395c5d4ef09")
 	)
+	(label "FSR_IN"
+		(at 39.37 166.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9c0125f-dfa6-420a-9c19-bd23e75823cd")
+	)
+	(label "FSR_IN"
+		(at 41.91 166.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab17ad33-e660-4700-92b7-3d49d518b530")
+	)
 	(label "FSR_OUT_2"
 		(at 128.27 46.99 180)
 		(effects
@@ -3782,6 +3790,16 @@
 			(justify right bottom)
 		)
 		(uuid "d07df118-fb37-45bc-9119-abc6763138dd")
+	)
+	(label "FSR_IN"
+		(at 36.83 166.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d169edb2-7bf3-4c85-91e0-e6b7eeabd5c9")
 	)
 	(label "VINC+"
 		(at 128.27 44.45 180)
