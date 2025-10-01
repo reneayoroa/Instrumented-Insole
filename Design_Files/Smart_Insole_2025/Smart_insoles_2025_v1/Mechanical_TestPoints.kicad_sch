@@ -761,16 +761,6 @@
 		)
 		(uuid "fd286bda-9d2c-4355-8e1b-04969cf727b3")
 	)
-	(label "Vsel"
-		(at 54.61 215.9 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1691e52-321e-4b9d-9ea7-a6e8515bd37f")
-	)
 	(global_label "INT2"
 		(shape output)
 		(at 255.27 41.91 90)
