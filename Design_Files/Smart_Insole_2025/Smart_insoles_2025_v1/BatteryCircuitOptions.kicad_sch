@@ -3211,6 +3211,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 129.54) (xy 227.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd83446-9433-4e84-99fb-c670d63aed51")
+	)
+	(wire
+		(pts
 			(xy 153.67 73.66) (xy 153.67 71.12)
 		)
 		(stroke
@@ -4197,7 +4207,17 @@
 		)
 		(uuid "d052eaa8-455b-4a0b-b817-9851d29c98d7")
 	)
-	(label "IN"
+	(label "VBUS_OUT_A"
+		(at 200.66 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de019d91-6237-4ec5-9082-97ba3b896440")
+	)
+	(label "VBUS_IN"
 		(at 100.33 66.04 180)
 		(effects
 			(font
@@ -4206,6 +4226,16 @@
 			(justify right bottom)
 		)
 		(uuid "e5d4007f-f94a-46dc-be5b-6f6d2ad2854d")
+	)
+	(label "VBUS_OUT_B"
+		(at 214.63 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3b41790-8135-4cff-8e06-41bfecd1b229")
 	)
 	(global_label "Vsel"
 		(shape input)
@@ -5969,7 +5999,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 125.73 0)
+		(at 227.33 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5978,7 +6008,7 @@
 		(fields_autoplaced yes)
 		(uuid "868dda19-bf68-412c-9a7b-59d3d59be63c")
 		(property "Reference" "#PWR055"
-			(at 227.33 132.08 0)
+			(at 227.33 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +6017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 129.8631 0)
+			(at 227.33 133.6731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 125.73 0)
+			(at 227.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 125.73 0)
+			(at 227.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 125.73 0)
+			(at 227.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
