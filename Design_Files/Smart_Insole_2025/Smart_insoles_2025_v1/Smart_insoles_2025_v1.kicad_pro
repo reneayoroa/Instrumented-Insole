@@ -190,6 +190,7 @@
       "track_widths": [
         0.0,
         0.1524,
+        0.2032,
         0.254,
         0.381,
         0.508
@@ -499,6 +500,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(30, 30, 30)",
+        "track_width": 0.381,
         "wire_width": 20
       },
       {
@@ -507,6 +509,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgb(255, 30, 28)",
+        "track_width": 0.381,
         "wire_width": 20
       },
       {
@@ -515,6 +518,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(24, 230, 32)",
+        "track_width": 0.1524,
         "wire_width": 6
       },
       {
@@ -553,6 +557,18 @@
       {
         "netclass": "POWER",
         "pattern": "*VBat*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "SCL"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
