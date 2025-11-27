@@ -5737,7 +5737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 231.14 81.28 0)
 			(effects
 				(font
@@ -5857,6 +5857,10 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/720d2e8f-49b8-46ab-8d82-07d24ffc5c73"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/b19f5448-2243-4e3e-9dc2-3dfe205a5c07"
 					(reference "SW3")
 					(unit 1)
 				)
