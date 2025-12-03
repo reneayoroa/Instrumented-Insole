@@ -2727,7 +2727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 38.1 0)
 			(effects
 				(font
@@ -2809,6 +2809,24 @@
 			)
 		)
 		(property "LCSC MANUFACTURER" ""
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Teste Fabricante" ""
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Teste Numero de parte" ""
 			(at 121.92 43.18 0)
 			(effects
 				(font
