@@ -3001,7 +3001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm"
 			(at 67.31 66.04 0)
 			(effects
 				(font
