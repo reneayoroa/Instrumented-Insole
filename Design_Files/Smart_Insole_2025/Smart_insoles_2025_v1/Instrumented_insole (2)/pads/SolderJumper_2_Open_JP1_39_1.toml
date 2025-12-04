@@ -1,0 +1,13 @@
+position = [ 147.4, 90.75 ]
+is_flipped = true
+has_model = false
+is_tht_or_smd = false
+has_paste = false
+pad_type = "SMD"
+shape = "CUSTOM"
+size = [ 1.0, 0.5 ]
+rotation = 0.0
+roundness = 0.25
+drill_shape = "OVAL"
+drill_size = [ 0.0, 0.0 ]
+fab_type = "NONE"

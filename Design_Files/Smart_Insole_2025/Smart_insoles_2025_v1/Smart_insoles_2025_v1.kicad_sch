@@ -4467,6 +4467,16 @@
 		)
 		(uuid "fd99a398-16bc-43f8-8249-3b2c29348b1b")
 	)
+	(label "EN"
+		(at 50.8 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e17c521-629a-4914-83cb-8635b9f86bfb")
+	)
 	(label "USB_TVS_N"
 		(at 166.37 48.26 0)
 		(effects

@@ -4936,7 +4936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2157bde6-5fb2-42c6-8de7-2a01ac0f84e8")
-		(property "Reference" "R7"
+		(property "Reference" "PT2"
 			(at 101.346 27.178 0)
 			(effects
 				(font
@@ -5100,6 +5100,69 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "3D Model" ""
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MANUFACTURER" ""
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cab3c823-3a15-446d-adf7-1cc719ac2385")
 		)
@@ -5112,7 +5175,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R7")
+					(reference "PT2")
 					(unit 1)
 				)
 			)
@@ -5395,7 +5458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3784d757-f4a8-48ec-b00b-5fc8e46107d8")
-		(property "Reference" "R12"
+		(property "Reference" "PT4"
 			(at 60.452 70.612 0)
 			(effects
 				(font
@@ -5559,6 +5622,69 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "3D Model" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MANUFACTURER" ""
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ca45d278-2f16-4bb2-9840-17d25418f3b1")
 		)
@@ -5571,7 +5697,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R12")
+					(reference "PT4")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60193944-f0d3-47ab-88c8-09799e6273c3")
-		(property "Reference" "R16"
+		(property "Reference" "PT7"
 			(at 103.886 93.726 0)
 			(effects
 				(font
@@ -6415,6 +6541,69 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "3D Model" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MANUFACTURER" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6fe82ad8-2d08-401f-b9b2-871073d3f6e9")
 		)
@@ -6427,7 +6616,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R16")
+					(reference "PT7")
 					(unit 1)
 				)
 			)
@@ -7311,7 +7500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fffd7b1-7886-41d6-970c-8b8ecc4b4e5a")
-		(property "Reference" "R9"
+		(property "Reference" "PT3"
 			(at 99.06 47.498 0)
 			(effects
 				(font
@@ -7475,6 +7664,69 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "3D Model" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MANUFACTURER" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "08178603-1bbf-4433-9d01-49819083ba57")
 		)
@@ -7487,7 +7739,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R9")
+					(reference "PT3")
 					(unit 1)
 				)
 			)
@@ -7705,7 +7957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "935ac28d-b982-4f06-8199-d2738f4124ac")
-		(property "Reference" "R2"
+		(property "Reference" "PT0"
 			(at 60.198 26.924 0)
 			(effects
 				(font
@@ -7944,7 +8196,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R2")
+					(reference "PT0")
 					(unit 1)
 				)
 			)
@@ -8832,7 +9084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca5339bb-9b69-4d4a-b351-cf9bef92220c")
-		(property "Reference" "R5"
+		(property "Reference" "PT1"
 			(at 60.706 47.244 0)
 			(effects
 				(font
@@ -9089,7 +9341,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R5")
+					(reference "PT1")
 					(unit 1)
 				)
 			)
@@ -9307,7 +9559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddc100e4-a264-4736-a2c7-2da8d5e30fc2")
-		(property "Reference" "R17"
+		(property "Reference" "PT5"
 			(at 106.172 68.58 0)
 			(effects
 				(font
@@ -9471,6 +9723,69 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "3D Model" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MANUFACTURER" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a6145213-8d21-4f7c-9a44-6fbd429560df")
 		)
@@ -9483,7 +9798,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R17")
+					(reference "PT5")
 					(unit 1)
 				)
 			)
@@ -9564,7 +9879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e812a87d-b26d-4997-98c8-aff8be851372")
-		(property "Reference" "R19"
+		(property "Reference" "PT6"
 			(at 64.008 91.44 0)
 			(effects
 				(font
@@ -9581,12 +9896,13 @@
 			)
 		)
 		(property "Footprint" "3x3_TrimPot:TRIM_TC33X-2-302E"
-			(at 60.96 96.52 0)
+			(at 60.96 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9820,7 +10136,7 @@
 		(instances
 			(project "Smart_insoles_2025_v1"
 				(path "/f1f3d712-154d-4111-a7c4-f47541abccf8/becab1a4-f5a1-44a9-8c28-9b741b2d0406"
-					(reference "R19")
+					(reference "PT6")
 					(unit 1)
 				)
 			)

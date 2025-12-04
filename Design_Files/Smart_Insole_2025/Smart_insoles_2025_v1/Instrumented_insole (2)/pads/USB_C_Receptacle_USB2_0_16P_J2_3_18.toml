@@ -1,0 +1,13 @@
+position = [ 111.33, 74.715 ]
+is_flipped = false
+has_model = true
+is_tht_or_smd = true
+has_paste = true
+pad_type = "THT"
+shape = "OVAL"
+size = [ 1.0, 2.1 ]
+rotation = 3.141592653589793
+roundness = 0.25
+drill_shape = "UNKNOWN"
+drill_size = [ 0.6, 1.7 ]
+fab_type = "HEATSINK"

@@ -41,14 +41,14 @@
           "height": 1.4,
           "width": 1.025
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.1524,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_v": 1.016,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2032
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|127900000|87965000|24a6fd49-4289-458e-9086-25c27e69eb46|8718009c-79b6-4ee4-94a9-2315dee1a684",
-          "Footprint from manufacturer"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -130,7 +125,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_connection": 0.1524,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -140,10 +135,10 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
-        "min_text_thickness": 0.153,
+        "min_text_thickness": 0.1524,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.1524,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -483,7 +478,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -494,7 +489,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1524,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -527,8 +522,10 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.158242,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(45, 54, 255)",
         "priority": 1,
         "schematic_color": "rgb(22, 47, 255)"
       }
