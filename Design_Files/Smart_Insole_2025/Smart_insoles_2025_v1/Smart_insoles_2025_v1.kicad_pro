@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.4,
-          "width": 1.025
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -58,7 +58,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|126130000|72142500|c0c6aa85-4937-448d-a7cd-33e37e7c75a8|60daaba0-dc3a-4f92-8344-b078ea4fb695",
+          ""
+        ],
+        [
+          "clearance|126130000|72642500|dafd42a9-98ff-46ec-a501-09ed46d8b183|c0c6aa85-4937-448d-a7cd-33e37e7c75a8",
+          ""
+        ],
+        [
+          "clearance|126755000|71442500|54fc2643-e71c-43e2-a6c1-88ed4afc0480|82bb89e4-1170-4dc1-9235-51f4240f400e",
+          ""
+        ],
+        [
+          "clearance|126905000|73767500|76eb6799-a6e4-48fc-b6ee-c9c599b8318e|031a972e-44d8-4e9b-a223-e806073b06ed",
+          ""
+        ],
+        [
+          "clearance|127255000|71442500|82bb89e4-1170-4dc1-9235-51f4240f400e|687122ae-0b5d-44cf-81d3-302b855b55ea",
+          ""
+        ],
+        [
+          "clearance|127405000|73767500|b3f4ee36-4f78-49b0-9b99-91cb53bf4564|76eb6799-a6e4-48fc-b6ee-c9c599b8318e",
+          ""
+        ],
+        [
+          "clearance|127755000|71442500|687122ae-0b5d-44cf-81d3-302b855b55ea|42848217-3a77-4862-a499-411feac0ce9d",
+          ""
+        ],
+        [
+          "clearance|127905000|73767500|e98735f3-f14a-43ef-94d1-7c214ca801f7|b3f4ee36-4f78-49b0-9b99-91cb53bf4564",
+          ""
+        ],
+        [
+          "clearance|127955000|71992500|a050b55c-a98c-49d4-8db3-e0269f86bac7|0869dff8-a125-4742-ae60-d0898c907c19",
+          ""
+        ],
+        [
+          "connection_width|119125504|92783344|f693ddbb-6e75-4f38-a7fa-736ccff6bd84|8051c8ec-191a-425a-a876-a0f775c190a5",
+          ""
+        ],
+        [
+          "connection_width|120586663|91308170|f693ddbb-6e75-4f38-a7fa-736ccff6bd84|40ba2929-5741-43ef-aa11-33b1ba64c0a8",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|118167500|92770000|3e2c5080-eb3a-40af-ac4d-7b1da3624dc9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|155150000|96620000|8c1bf34d-56fa-46b8-9c4c-698506c13458|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -78,7 +131,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -579,7 +632,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Output_files/",
+      "plot": "Output_files/SVG/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

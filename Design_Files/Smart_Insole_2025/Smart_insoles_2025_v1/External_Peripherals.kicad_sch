@@ -3001,7 +3001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD74HC4067:SOIC127P1030X265-24N"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -3096,6 +3096,69 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "3D Model" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MANUFACTURER" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4084,6 +4147,69 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "3D Model" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MANUFACTURER" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
