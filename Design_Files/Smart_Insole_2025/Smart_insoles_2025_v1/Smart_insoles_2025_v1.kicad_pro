@@ -96,8 +96,8 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|108840000|87930000|6101870a-a853-4a08-bdde-45a22120488d|00000000-0000-0000-0000-000000000000",
-          ""
+          "lib_footprint_mismatch|117220000|77920000|6101870a-a853-4a08-bdde-45a22120488d|00000000-0000-0000-0000-000000000000",
+          "Modified to fit actual component"
         ],
         [
           "lib_footprint_mismatch|118167500|92770000|3e2c5080-eb3a-40af-ac4d-7b1da3624dc9|00000000-0000-0000-0000-000000000000",
@@ -201,7 +201,7 @@
         "min_track_width": 0.1524,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -640,7 +640,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Output_files/SVG/",
+      "plot": "Output_files/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
